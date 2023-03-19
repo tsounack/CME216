@@ -1,0 +1,11 @@
+
+Epoch [15/150], Step [4/4],                     Training Loss: 0.3881, Validation Loss: 0.3829,                     Val. error (in %) = 82.00%
+Epoch [30/150], Step [4/4],                     Training Loss: 0.1038, Validation Loss: 0.1044,                     Val. error (in %) = 42.81%
+Epoch [45/150], Step [4/4],                     Training Loss: 0.0145, Validation Loss: 0.0117,                     Val. error (in %) = 14.26%
+Epoch [60/150], Step [4/4],                     Training Loss: 0.0058, Validation Loss: 0.0058,                     Val. error (in %) = 9.97%
+Epoch [75/150], Step [4/4],                     Training Loss: 0.0037, Validation Loss: 0.0044,                     Val. error (in %) = 8.55%
+Epoch [90/150], Step [4/4],                     Training Loss: 0.0031, Validation Loss: 0.0033,                     Val. error (in %) = 7.54%
+Epoch [105/150], Step [4/4],                     Training Loss: 0.0024, Validation Loss: 0.0031,                     Val. error (in %) = 7.19%
+Epoch [120/150], Step [4/4],                     Training Loss: 0.0024, Validation Loss: 0.0029,                     Val. error (in %) = 7.08%
+Epoch [135/150], Step [4/4],                     Training Loss: 0.0018, Validation Loss: 0.0024,                     Val. error (in %) = 6.30%
+Epoch [150/150], Step [4/4],                     Training Loss: 0.0016, Validation Loss: 0.0021,                     Val. error (in %) = 5.93%

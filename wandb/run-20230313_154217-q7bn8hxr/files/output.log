@@ -1,0 +1,12 @@
+/Users/Thoma/Documents/Github/CME216-Machine-Learning/HW6/utils.py:31: RuntimeWarning:
+More than 20 figures have been opened. Figures created through the pyplot interface (`matplotlib.pyplot.figure`) are retained until explicitly closed and may consume too much memory. (To control this warning, see the rcParam `figure.max_open_warning`). Consider using `matplotlib.pyplot.close()`.
+Epoch [15/150], Step [4/4],                     Training Loss: 0.5333, Validation Loss: 0.5382,                     Val. error (in %) = 97.40%
+Epoch [30/150], Step [4/4],                     Training Loss: 0.3820, Validation Loss: 0.3766,                     Val. error (in %) = 81.48%
+Epoch [45/150], Step [4/4],                     Training Loss: 0.1485, Validation Loss: 0.1491,                     Val. error (in %) = 51.43%
+Epoch [60/150], Step [4/4],                     Training Loss: 0.0291, Validation Loss: 0.0313,                     Val. error (in %) = 23.50%
+Epoch [75/150], Step [4/4],                     Training Loss: 0.0067, Validation Loss: 0.0073,                     Val. error (in %) = 11.38%
+Epoch [90/150], Step [4/4],                     Training Loss: 0.0042, Validation Loss: 0.0053,                     Val. error (in %) = 9.51%
+Epoch [105/150], Step [4/4],                     Training Loss: 0.0031, Validation Loss: 0.0035,                     Val. error (in %) = 7.75%
+Epoch [120/150], Step [4/4],                     Training Loss: 0.0028, Validation Loss: 0.0030,                     Val. error (in %) = 7.25%
+Epoch [135/150], Step [4/4],                     Training Loss: 0.0023, Validation Loss: 0.0028,                     Val. error (in %) = 6.87%
+Epoch [150/150], Step [4/4],                     Training Loss: 0.0020, Validation Loss: 0.0026,                     Val. error (in %) = 6.67%

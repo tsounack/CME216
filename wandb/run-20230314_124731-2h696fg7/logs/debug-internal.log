@@ -1,0 +1,670 @@
+2023-03-14 12:47:31,814 INFO    StreamThr :45975 [internal.py:wandb_internal():87] W&B internal server running at pid: 45975, started at: 2023-03-14 12:47:31.814149
+2023-03-14 12:47:31,815 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status
+2023-03-14 12:47:31,822 INFO    WriterThread:45975 [datastore.py:open_for_write():85] open: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/run-2h696fg7.wandb
+2023-03-14 12:47:31,822 DEBUG   SenderThread:45975 [sender.py:send():336] send: header
+2023-03-14 12:47:31,855 DEBUG   SenderThread:45975 [sender.py:send():336] send: run
+2023-03-14 12:47:32,324 INFO    SenderThread:45975 [dir_watcher.py:__init__():219] watching files in: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files
+2023-03-14 12:47:32,325 INFO    SenderThread:45975 [sender.py:_start_run_threads():1078] run started: 2h696fg7 with start time 1678823251.812876
+2023-03-14 12:47:32,325 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: summary_record
+2023-03-14 12:47:32,326 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-14 12:47:32,328 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: check_version
+2023-03-14 12:47:32,328 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: check_version
+2023-03-14 12:47:32,568 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: run_start
+2023-03-14 12:47:32,586 DEBUG   HandlerThread:45975 [system_info.py:__init__():31] System info init
+2023-03-14 12:47:32,586 DEBUG   HandlerThread:45975 [system_info.py:__init__():46] System info init done
+2023-03-14 12:47:32,586 INFO    HandlerThread:45975 [system_monitor.py:start():183] Starting system monitor
+2023-03-14 12:47:32,586 INFO    SystemMonitor:45975 [system_monitor.py:_start():147] Starting system asset monitoring threads
+2023-03-14 12:47:32,587 INFO    HandlerThread:45975 [system_monitor.py:probe():204] Collecting system info
+2023-03-14 12:47:32,587 INFO    SystemMonitor:45975 [interfaces.py:start():187] Started cpu monitoring
+2023-03-14 12:47:32,588 DEBUG   HandlerThread:45975 [system_info.py:probe():195] Probing system
+2023-03-14 12:47:32,588 INFO    SystemMonitor:45975 [interfaces.py:start():187] Started disk monitoring
+2023-03-14 12:47:32,588 INFO    SystemMonitor:45975 [interfaces.py:start():187] Started gpuapple monitoring
+2023-03-14 12:47:32,590 INFO    SystemMonitor:45975 [interfaces.py:start():187] Started memory monitoring
+2023-03-14 12:47:32,592 INFO    SystemMonitor:45975 [interfaces.py:start():187] Started network monitoring
+2023-03-14 12:47:32,598 DEBUG   HandlerThread:45975 [system_info.py:_probe_git():180] Probing git
+2023-03-14 12:47:32,625 DEBUG   HandlerThread:45975 [system_info.py:_probe_git():188] Probing git done
+2023-03-14 12:47:32,625 DEBUG   HandlerThread:45975 [system_info.py:probe():240] Probing system done
+2023-03-14 12:47:32,626 DEBUG   HandlerThread:45975 [system_monitor.py:probe():213] {'os': 'macOS-13.2.1-arm64-arm-64bit', 'python': '3.10.9', 'heartbeatAt': '2023-03-14T19:47:32.588247', 'startedAt': '2023-03-14T19:47:31.792973', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/Thoma/Documents/Github/CME216-Machine-Learning/HW6/hw6.py', 'codePath': 'HW6/hw6.py', 'git': {'remote': 'https://github.com/tsounack/CME216-Machine-Learning.git', 'commit': '4c60b5fa3b44f590d551b40d893f8d3d515742cc'}, 'email': 'tsounack@stanford.edu', 'root': '/Users/Thoma/Documents/Github/CME216-Machine-Learning', 'host': 'DN51s555.SUNet', 'username': 'Thoma', 'executable': '/Users/Thoma/miniforge3/envs/Thomas/bin/python', 'cpu_count': 10, 'cpu_count_logical': 10, 'disk': {'total': 460.4317207336426, 'used': 339.4734687805176}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 16.0}}
+2023-03-14 12:47:32,626 INFO    HandlerThread:45975 [system_monitor.py:probe():214] Finished collecting system info
+2023-03-14 12:47:32,626 INFO    HandlerThread:45975 [system_monitor.py:probe():217] Publishing system info
+2023-03-14 12:47:32,626 DEBUG   HandlerThread:45975 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-03-14 12:47:32,626 DEBUG   HandlerThread:45975 [system_info.py:_save_pip():67] Saving pip packages done
+2023-03-14 12:47:32,626 DEBUG   HandlerThread:45975 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-03-14 12:47:33,333 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/requirements.txt
+2023-03-14 12:47:33,333 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/conda-environment.yaml
+2023-03-14 12:47:33,333 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/wandb-summary.json
+2023-03-14 12:47:34,143 DEBUG   HandlerThread:45975 [system_info.py:_save_conda():86] Saving conda packages done
+2023-03-14 12:47:34,144 DEBUG   HandlerThread:45975 [system_info.py:_save_code():89] Saving code
+2023-03-14 12:47:34,154 DEBUG   HandlerThread:45975 [system_info.py:_save_code():110] Saving code done
+2023-03-14 12:47:34,154 DEBUG   HandlerThread:45975 [system_info.py:_save_patches():127] Saving git patches
+2023-03-14 12:47:34,200 DEBUG   HandlerThread:45975 [system_info.py:_save_patches():169] Saving git patches done
+2023-03-14 12:47:34,200 INFO    HandlerThread:45975 [system_monitor.py:probe():219] Finished publishing system info
+2023-03-14 12:47:34,203 DEBUG   SenderThread:45975 [sender.py:send():336] send: files
+2023-03-14 12:47:34,203 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file wandb-metadata.json with policy now
+2023-03-14 12:47:34,203 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file code/HW6/hw6.py with policy now
+2023-03-14 12:47:34,206 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-14 12:47:34,207 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: stop_status
+2023-03-14 12:47:34,336 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/conda-environment.yaml
+2023-03-14 12:47:34,337 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/wandb-metadata.json
+2023-03-14 12:47:34,337 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/code/HW6/hw6.py
+2023-03-14 12:47:34,337 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/code/HW6
+2023-03-14 12:47:34,337 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/code
+2023-03-14 12:47:34,909 DEBUG   SenderThread:45975 [sender.py:send():336] send: telemetry
+2023-03-14 12:47:35,482 INFO    wandb-upload_0:45975 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmpqsz1c2i3wandb/mvucrt8p-wandb-metadata.json
+2023-03-14 12:47:35,483 INFO    wandb-upload_1:45975 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmpqsz1c2i3wandb/bf4rmytl-code/HW6/hw6.py
+2023-03-14 12:47:36,911 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:47:41,945 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:47:46,977 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:47:49,216 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:47:49,217 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:47:52,010 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:47:54,250 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:47:56,471 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/code
+2023-03-14 12:47:57,040 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:47:57,481 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/code/HW6
+2023-03-14 12:47:57,482 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/code
+2023-03-14 12:47:59,278 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:48:02,086 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:48:02,516 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/config.yaml
+2023-03-14 12:48:04,312 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:48:07,329 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:48:09,352 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:48:12,363 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:48:13,700 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-14 12:48:13,701 DEBUG   SenderThread:45975 [sender.py:send():336] send: files
+2023-03-14 12:48:13,702 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file media/images/true_pred_pressure_0_a788f4af5536b2acc3ed.png with policy now
+2023-03-14 12:48:13,703 DEBUG   SenderThread:45975 [sender.py:send():336] send: history
+2023-03-14 12:48:13,703 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: summary_record
+2023-03-14 12:48:13,704 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-14 12:48:13,748 DEBUG   SenderThread:45975 [sender.py:send():336] send: files
+2023-03-14 12:48:13,748 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-14 12:48:13,748 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file media/plotly/rel_error_hist_1_10fb985e86231928bde8.plotly.json with policy now
+2023-03-14 12:48:13,749 DEBUG   SenderThread:45975 [sender.py:send():336] send: history
+2023-03-14 12:48:13,749 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: summary_record
+2023-03-14 12:48:13,749 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-14 12:48:13,749 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-14 12:48:13,750 DEBUG   SenderThread:45975 [sender.py:send():336] send: history
+2023-03-14 12:48:13,750 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: summary_record
+2023-03-14 12:48:13,750 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-14 12:48:14,241 INFO    wandb-upload_0:45975 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmpqsz1c2i3wandb/xc1x2voy-media/images/true_pred_pressure_0_a788f4af5536b2acc3ed.png
+2023-03-14 12:48:14,397 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:48:14,462 INFO    wandb-upload_1:45975 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmpqsz1c2i3wandb/ri4m4h7i-media/plotly/rel_error_hist_1_10fb985e86231928bde8.plotly.json
+2023-03-14 12:48:14,586 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/wandb-summary.json
+2023-03-14 12:48:14,586 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/plotly/rel_error_hist_1_10fb985e86231928bde8.plotly.json
+2023-03-14 12:48:14,586 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/output.log
+2023-03-14 12:48:14,586 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/images/true_pred_pressure_0_a788f4af5536b2acc3ed.png
+2023-03-14 12:48:14,586 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media
+2023-03-14 12:48:14,587 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/images
+2023-03-14 12:48:14,587 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/plotly
+2023-03-14 12:48:15,596 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media
+2023-03-14 12:48:15,815 INFO    wandb-upload_0:45975 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmpqsz1c2i3wandb/on97p24x-media/plotly/rel_error_hist_1_10fb985e86231928bde8.plotly.json
+2023-03-14 12:48:15,846 INFO    wandb-upload_1:45975 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmpqsz1c2i3wandb/zjn9tdd1-media/images/true_pred_pressure_0_a788f4af5536b2acc3ed.png
+2023-03-14 12:48:16,607 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/output.log
+2023-03-14 12:48:17,767 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:48:19,435 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:48:22,806 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:48:24,469 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:48:27,676 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media
+2023-03-14 12:48:27,676 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/images
+2023-03-14 12:48:27,847 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:48:28,678 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media
+2023-03-14 12:48:28,678 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/plotly
+2023-03-14 12:48:29,499 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:48:32,597 DEBUG   SystemMonitor:45975 [system_monitor.py:_start():161] Starting system metrics aggregation loop
+2023-03-14 12:48:32,598 DEBUG   SenderThread:45975 [sender.py:send():336] send: telemetry
+2023-03-14 12:48:32,598 DEBUG   SenderThread:45975 [sender.py:send():336] send: stats
+2023-03-14 12:48:33,610 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:48:34,543 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:48:34,715 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/config.yaml
+2023-03-14 12:48:38,834 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:48:39,583 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:48:43,884 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:48:44,610 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:48:48,921 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:48:49,650 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:48:52,696 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-14 12:48:52,696 DEBUG   SenderThread:45975 [sender.py:send():336] send: files
+2023-03-14 12:48:52,697 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file media/images/true_pred_pressure_3_282afb225f0361d970fa.png with policy now
+2023-03-14 12:48:52,697 DEBUG   SenderThread:45975 [sender.py:send():336] send: history
+2023-03-14 12:48:52,697 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: summary_record
+2023-03-14 12:48:52,698 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-14 12:48:52,724 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-14 12:48:52,724 DEBUG   SenderThread:45975 [sender.py:send():336] send: files
+2023-03-14 12:48:52,724 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file media/plotly/rel_error_hist_4_6f39065c82a238956076.plotly.json with policy now
+2023-03-14 12:48:52,724 DEBUG   SenderThread:45975 [sender.py:send():336] send: history
+2023-03-14 12:48:52,724 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: summary_record
+2023-03-14 12:48:52,725 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-14 12:48:52,725 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-14 12:48:52,725 DEBUG   SenderThread:45975 [sender.py:send():336] send: history
+2023-03-14 12:48:52,725 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: summary_record
+2023-03-14 12:48:52,726 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-14 12:48:52,838 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/wandb-summary.json
+2023-03-14 12:48:52,838 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/images/true_pred_pressure_3_282afb225f0361d970fa.png
+2023-03-14 12:48:52,839 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/plotly/rel_error_hist_4_6f39065c82a238956076.plotly.json
+2023-03-14 12:48:52,839 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/images
+2023-03-14 12:48:52,839 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/plotly
+2023-03-14 12:48:53,428 INFO    wandb-upload_1:45975 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmpqsz1c2i3wandb/6a6cwluj-media/plotly/rel_error_hist_4_6f39065c82a238956076.plotly.json
+2023-03-14 12:48:53,443 INFO    wandb-upload_0:45975 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmpqsz1c2i3wandb/f1lk3cel-media/images/true_pred_pressure_3_282afb225f0361d970fa.png
+2023-03-14 12:48:54,086 INFO    wandb-upload_1:45975 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmpqsz1c2i3wandb/iogooi2w-media/plotly/rel_error_hist_4_6f39065c82a238956076.plotly.json
+2023-03-14 12:48:54,695 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:48:54,740 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:48:54,805 INFO    wandb-upload_0:45975 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmpqsz1c2i3wandb/lcn2k38o-media/images/true_pred_pressure_3_282afb225f0361d970fa.png
+2023-03-14 12:48:54,850 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/output.log
+2023-03-14 12:48:55,861 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media
+2023-03-14 12:48:55,862 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/images
+2023-03-14 12:48:56,867 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media
+2023-03-14 12:48:56,867 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/plotly
+2023-03-14 12:48:59,741 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:48:59,784 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:49:02,599 DEBUG   SenderThread:45975 [sender.py:send():336] send: stats
+2023-03-14 12:49:04,783 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:49:05,627 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:49:09,823 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:49:10,658 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:49:14,869 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:49:15,697 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:49:19,907 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:49:20,730 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:49:24,942 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:49:25,763 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:49:29,981 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:49:30,797 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:49:31,758 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-14 12:49:31,758 DEBUG   SenderThread:45975 [sender.py:send():336] send: files
+2023-03-14 12:49:31,758 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file media/images/true_pred_pressure_6_e2bbecefc30259685691.png with policy now
+2023-03-14 12:49:31,759 DEBUG   SenderThread:45975 [sender.py:send():336] send: history
+2023-03-14 12:49:31,759 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: summary_record
+2023-03-14 12:49:31,760 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-14 12:49:31,784 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-14 12:49:31,784 DEBUG   SenderThread:45975 [sender.py:send():336] send: files
+2023-03-14 12:49:31,784 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file media/plotly/rel_error_hist_7_4a4838f467c617e2b487.plotly.json with policy now
+2023-03-14 12:49:31,784 DEBUG   SenderThread:45975 [sender.py:send():336] send: history
+2023-03-14 12:49:31,784 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: summary_record
+2023-03-14 12:49:31,784 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-14 12:49:31,785 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-14 12:49:31,785 DEBUG   SenderThread:45975 [sender.py:send():336] send: history
+2023-03-14 12:49:31,785 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: summary_record
+2023-03-14 12:49:31,787 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-14 12:49:32,141 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/output.log
+2023-03-14 12:49:32,141 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/wandb-summary.json
+2023-03-14 12:49:32,141 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/images/true_pred_pressure_6_e2bbecefc30259685691.png
+2023-03-14 12:49:32,141 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/plotly/rel_error_hist_7_4a4838f467c617e2b487.plotly.json
+2023-03-14 12:49:32,142 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/images
+2023-03-14 12:49:32,142 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/plotly
+2023-03-14 12:49:32,355 INFO    wandb-upload_0:45975 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmpqsz1c2i3wandb/mk65nm2r-media/plotly/rel_error_hist_7_4a4838f467c617e2b487.plotly.json
+2023-03-14 12:49:32,385 INFO    wandb-upload_1:45975 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmpqsz1c2i3wandb/ecci8loo-media/images/true_pred_pressure_6_e2bbecefc30259685691.png
+2023-03-14 12:49:32,601 DEBUG   SenderThread:45975 [sender.py:send():336] send: stats
+2023-03-14 12:49:32,887 INFO    wandb-upload_0:45975 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmpqsz1c2i3wandb/1z029ust-media/plotly/rel_error_hist_7_4a4838f467c617e2b487.plotly.json
+2023-03-14 12:49:33,403 INFO    wandb-upload_1:45975 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmpqsz1c2i3wandb/0vy249p5-media/images/true_pred_pressure_6_e2bbecefc30259685691.png
+2023-03-14 12:49:35,016 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:49:35,149 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/images
+2023-03-14 12:49:35,149 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media
+2023-03-14 12:49:35,149 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/plotly
+2023-03-14 12:49:36,629 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:49:40,059 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:49:41,658 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:49:45,077 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:49:53,546 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:49:54,879 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:49:56,742 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/output.log
+2023-03-14 12:49:58,553 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:49:59,890 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:50:02,602 DEBUG   SenderThread:45975 [sender.py:send():336] send: stats
+2023-03-14 12:50:03,566 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:50:05,614 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:50:08,582 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:50:10,634 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:50:13,590 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:50:15,649 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:50:15,847 DEBUG   SenderThread:45975 [sender.py:send():336] send: files
+2023-03-14 12:50:15,847 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-14 12:50:15,848 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file media/images/true_pred_pressure_9_bc42e141278a055fb5fe.png with policy now
+2023-03-14 12:50:15,848 DEBUG   SenderThread:45975 [sender.py:send():336] send: history
+2023-03-14 12:50:15,849 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: summary_record
+2023-03-14 12:50:15,849 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-14 12:50:15,882 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-14 12:50:15,882 DEBUG   SenderThread:45975 [sender.py:send():336] send: files
+2023-03-14 12:50:15,882 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file media/plotly/rel_error_hist_10_7752dd4f031f2a3550c3.plotly.json with policy now
+2023-03-14 12:50:15,883 DEBUG   SenderThread:45975 [sender.py:send():336] send: history
+2023-03-14 12:50:15,883 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: summary_record
+2023-03-14 12:50:15,883 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-14 12:50:15,883 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-14 12:50:15,884 DEBUG   SenderThread:45975 [sender.py:send():336] send: history
+2023-03-14 12:50:15,884 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: summary_record
+2023-03-14 12:50:15,884 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-14 12:50:16,478 INFO    wandb-upload_1:45975 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmpqsz1c2i3wandb/o611rj2b-media/plotly/rel_error_hist_10_7752dd4f031f2a3550c3.plotly.json
+2023-03-14 12:50:16,547 INFO    wandb-upload_0:45975 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmpqsz1c2i3wandb/4ca00qbk-media/images/true_pred_pressure_9_bc42e141278a055fb5fe.png
+2023-03-14 12:50:16,824 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/wandb-summary.json
+2023-03-14 12:50:16,825 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/images/true_pred_pressure_9_bc42e141278a055fb5fe.png
+2023-03-14 12:50:16,825 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/plotly/rel_error_hist_10_7752dd4f031f2a3550c3.plotly.json
+2023-03-14 12:50:16,825 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/images
+2023-03-14 12:50:16,825 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/plotly
+2023-03-14 12:50:17,541 INFO    wandb-upload_0:45975 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmpqsz1c2i3wandb/jy6bqxnm-media/plotly/rel_error_hist_10_7752dd4f031f2a3550c3.plotly.json
+2023-03-14 12:50:17,623 INFO    wandb-upload_1:45975 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmpqsz1c2i3wandb/fxzadmim-media/images/true_pred_pressure_9_bc42e141278a055fb5fe.png
+2023-03-14 12:50:17,829 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/output.log
+2023-03-14 12:50:18,609 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:50:20,908 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:50:21,846 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/images
+2023-03-14 12:50:21,847 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media
+2023-03-14 12:50:21,847 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/plotly
+2023-03-14 12:50:23,632 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:50:25,923 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:50:28,650 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:50:30,944 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:50:32,606 DEBUG   SenderThread:45975 [sender.py:send():336] send: stats
+2023-03-14 12:50:33,665 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:50:36,618 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:50:38,681 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:50:41,641 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:50:43,701 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:50:46,658 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:50:48,722 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:50:51,674 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:50:53,737 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:50:55,840 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-14 12:50:55,841 DEBUG   SenderThread:45975 [sender.py:send():336] send: files
+2023-03-14 12:50:55,841 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file media/images/true_pred_pressure_12_5f5911f5507fd1e62afc.png with policy now
+2023-03-14 12:50:55,842 DEBUG   SenderThread:45975 [sender.py:send():336] send: history
+2023-03-14 12:50:55,842 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: summary_record
+2023-03-14 12:50:55,843 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-14 12:50:55,870 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-14 12:50:55,870 DEBUG   SenderThread:45975 [sender.py:send():336] send: files
+2023-03-14 12:50:55,870 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file media/plotly/rel_error_hist_13_bc9b7d24b1f54135c2e8.plotly.json with policy now
+2023-03-14 12:50:55,870 DEBUG   SenderThread:45975 [sender.py:send():336] send: history
+2023-03-14 12:50:55,870 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: summary_record
+2023-03-14 12:50:55,871 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-14 12:50:55,871 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-14 12:50:55,871 DEBUG   SenderThread:45975 [sender.py:send():336] send: history
+2023-03-14 12:50:55,871 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: summary_record
+2023-03-14 12:50:55,872 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-14 12:50:56,007 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/wandb-summary.json
+2023-03-14 12:50:56,007 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/images/true_pred_pressure_12_5f5911f5507fd1e62afc.png
+2023-03-14 12:50:56,007 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/plotly/rel_error_hist_13_bc9b7d24b1f54135c2e8.plotly.json
+2023-03-14 12:50:56,007 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/images
+2023-03-14 12:50:56,007 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/plotly
+2023-03-14 12:50:56,323 INFO    wandb-upload_0:45975 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmpqsz1c2i3wandb/j2f4hwe0-media/images/true_pred_pressure_12_5f5911f5507fd1e62afc.png
+2023-03-14 12:50:56,324 INFO    wandb-upload_1:45975 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmpqsz1c2i3wandb/dhlplny3-media/plotly/rel_error_hist_13_bc9b7d24b1f54135c2e8.plotly.json
+2023-03-14 12:50:56,844 INFO    wandb-upload_0:45975 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmpqsz1c2i3wandb/jhfevli6-media/images/true_pred_pressure_12_5f5911f5507fd1e62afc.png
+2023-03-14 12:50:56,845 INFO    wandb-upload_1:45975 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmpqsz1c2i3wandb/xhmhvqop-media/plotly/rel_error_hist_13_bc9b7d24b1f54135c2e8.plotly.json
+2023-03-14 12:50:56,877 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:50:58,017 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/output.log
+2023-03-14 12:50:58,759 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:50:59,020 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media
+2023-03-14 12:50:59,020 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/plotly
+2023-03-14 12:51:00,023 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/images
+2023-03-14 12:51:00,024 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media
+2023-03-14 12:51:01,895 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:51:02,608 DEBUG   SenderThread:45975 [sender.py:send():336] send: stats
+2023-03-14 12:51:03,776 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:51:07,626 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:51:08,793 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:51:12,643 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:51:13,813 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:51:17,661 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:51:18,831 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:51:22,683 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:51:23,852 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:51:27,706 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:51:28,872 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:51:32,612 DEBUG   SenderThread:45975 [sender.py:send():336] send: stats
+2023-03-14 12:51:33,614 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:51:33,897 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:51:34,985 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-14 12:51:34,985 DEBUG   SenderThread:45975 [sender.py:send():336] send: files
+2023-03-14 12:51:34,986 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file media/images/true_pred_pressure_15_558b33111cc65ffe0737.png with policy now
+2023-03-14 12:51:34,986 DEBUG   SenderThread:45975 [sender.py:send():336] send: history
+2023-03-14 12:51:34,986 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: summary_record
+2023-03-14 12:51:34,987 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-14 12:51:35,013 DEBUG   SenderThread:45975 [sender.py:send():336] send: files
+2023-03-14 12:51:35,013 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file media/plotly/rel_error_hist_16_ba90a2d6b5286ffd7b6a.plotly.json with policy now
+2023-03-14 12:51:35,013 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-14 12:51:35,014 DEBUG   SenderThread:45975 [sender.py:send():336] send: history
+2023-03-14 12:51:35,014 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: summary_record
+2023-03-14 12:51:35,014 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-14 12:51:35,015 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-14 12:51:35,015 DEBUG   SenderThread:45975 [sender.py:send():336] send: history
+2023-03-14 12:51:35,015 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: summary_record
+2023-03-14 12:51:35,015 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-14 12:51:35,176 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/wandb-summary.json
+2023-03-14 12:51:35,176 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/images/true_pred_pressure_15_558b33111cc65ffe0737.png
+2023-03-14 12:51:35,176 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/plotly/rel_error_hist_16_ba90a2d6b5286ffd7b6a.plotly.json
+2023-03-14 12:51:35,177 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/images
+2023-03-14 12:51:35,177 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/plotly
+2023-03-14 12:51:35,639 INFO    wandb-upload_0:45975 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmpqsz1c2i3wandb/1q0dl1f3-media/images/true_pred_pressure_15_558b33111cc65ffe0737.png
+2023-03-14 12:51:35,644 INFO    wandb-upload_1:45975 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmpqsz1c2i3wandb/fqryn6j6-media/plotly/rel_error_hist_16_ba90a2d6b5286ffd7b6a.plotly.json
+2023-03-14 12:51:36,179 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/output.log
+2023-03-14 12:51:37,736 INFO    wandb-upload_0:45975 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmpqsz1c2i3wandb/7nth7n3l-media/images/true_pred_pressure_15_558b33111cc65ffe0737.png
+2023-03-14 12:51:37,736 INFO    wandb-upload_1:45975 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmpqsz1c2i3wandb/ydvrb3op-media/plotly/rel_error_hist_16_ba90a2d6b5286ffd7b6a.plotly.json
+2023-03-14 12:51:38,919 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:51:39,029 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:51:39,190 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/images
+2023-03-14 12:51:39,190 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media
+2023-03-14 12:51:40,195 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media
+2023-03-14 12:51:40,196 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/plotly
+2023-03-14 12:51:43,940 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:51:44,054 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:51:48,961 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:51:49,079 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:51:53,973 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:51:54,100 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:51:58,995 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:51:59,119 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:52:02,619 DEBUG   SenderThread:45975 [sender.py:send():336] send: stats
+2023-03-14 12:52:04,018 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:52:04,629 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:52:09,037 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:52:09,655 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:52:14,677 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:52:16,086 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:52:16,610 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-14 12:52:16,611 DEBUG   SenderThread:45975 [sender.py:send():336] send: files
+2023-03-14 12:52:16,611 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file media/images/true_pred_pressure_18_d4ffaea0a4d054913413.png with policy now
+2023-03-14 12:52:16,611 DEBUG   SenderThread:45975 [sender.py:send():336] send: history
+2023-03-14 12:52:16,612 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: summary_record
+2023-03-14 12:52:16,613 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-14 12:52:16,662 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-14 12:52:16,663 DEBUG   SenderThread:45975 [sender.py:send():336] send: files
+2023-03-14 12:52:16,663 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file media/plotly/rel_error_hist_19_658ed4daeb8dfbfd88b4.plotly.json with policy now
+2023-03-14 12:52:16,663 DEBUG   SenderThread:45975 [sender.py:send():336] send: history
+2023-03-14 12:52:16,663 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: summary_record
+2023-03-14 12:52:16,663 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-14 12:52:16,663 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-14 12:52:16,664 DEBUG   SenderThread:45975 [sender.py:send():336] send: history
+2023-03-14 12:52:16,664 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: summary_record
+2023-03-14 12:52:16,665 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-14 12:52:17,054 INFO    wandb-upload_0:45975 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmpqsz1c2i3wandb/7zbeb43c-media/images/true_pred_pressure_18_d4ffaea0a4d054913413.png
+2023-03-14 12:52:17,158 INFO    wandb-upload_1:45975 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmpqsz1c2i3wandb/1gmoij0o-media/plotly/rel_error_hist_19_658ed4daeb8dfbfd88b4.plotly.json
+2023-03-14 12:52:17,357 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/wandb-summary.json
+2023-03-14 12:52:17,357 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/images/true_pred_pressure_18_d4ffaea0a4d054913413.png
+2023-03-14 12:52:17,357 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/plotly/rel_error_hist_19_658ed4daeb8dfbfd88b4.plotly.json
+2023-03-14 12:52:17,357 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/images
+2023-03-14 12:52:17,357 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/plotly
+2023-03-14 12:52:18,004 INFO    wandb-upload_1:45975 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmpqsz1c2i3wandb/m4xlf0ud-media/plotly/rel_error_hist_19_658ed4daeb8dfbfd88b4.plotly.json
+2023-03-14 12:52:18,103 INFO    wandb-upload_0:45975 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmpqsz1c2i3wandb/fr3d0gzz-media/images/true_pred_pressure_18_d4ffaea0a4d054913413.png
+2023-03-14 12:52:18,358 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/output.log
+2023-03-14 12:52:19,363 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media
+2023-03-14 12:52:19,364 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/plotly
+2023-03-14 12:52:20,365 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/images
+2023-03-14 12:52:20,677 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:52:21,113 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:52:25,699 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:52:26,138 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:52:30,714 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:52:31,157 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:52:32,622 DEBUG   SenderThread:45975 [sender.py:send():336] send: stats
+2023-03-14 12:52:36,177 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:52:36,642 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:52:41,198 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:52:41,662 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:52:46,213 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:52:46,682 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:52:51,230 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:52:51,707 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:52:55,855 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-14 12:52:55,855 DEBUG   SenderThread:45975 [sender.py:send():336] send: files
+2023-03-14 12:52:55,856 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file media/images/true_pred_pressure_21_3d255006e295f2f7aeae.png with policy now
+2023-03-14 12:52:55,856 DEBUG   SenderThread:45975 [sender.py:send():336] send: history
+2023-03-14 12:52:55,856 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: summary_record
+2023-03-14 12:52:55,856 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-14 12:52:55,883 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-14 12:52:55,883 DEBUG   SenderThread:45975 [sender.py:send():336] send: files
+2023-03-14 12:52:55,883 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file media/plotly/rel_error_hist_22_30915ec531535830a9a0.plotly.json with policy now
+2023-03-14 12:52:55,883 DEBUG   SenderThread:45975 [sender.py:send():336] send: history
+2023-03-14 12:52:55,883 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: summary_record
+2023-03-14 12:52:55,884 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-14 12:52:55,884 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-14 12:52:55,884 DEBUG   SenderThread:45975 [sender.py:send():336] send: history
+2023-03-14 12:52:55,884 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: summary_record
+2023-03-14 12:52:55,886 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-14 12:52:56,261 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:52:56,372 INFO    wandb-upload_0:45975 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmpqsz1c2i3wandb/cj3b18lr-media/plotly/rel_error_hist_22_30915ec531535830a9a0.plotly.json
+2023-03-14 12:52:56,373 INFO    wandb-upload_1:45975 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmpqsz1c2i3wandb/xzj01l32-media/images/true_pred_pressure_21_3d255006e295f2f7aeae.png
+2023-03-14 12:52:56,517 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/wandb-summary.json
+2023-03-14 12:52:56,517 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/images/true_pred_pressure_21_3d255006e295f2f7aeae.png
+2023-03-14 12:52:56,517 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/plotly/rel_error_hist_22_30915ec531535830a9a0.plotly.json
+2023-03-14 12:52:56,517 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/images
+2023-03-14 12:52:56,517 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/plotly
+2023-03-14 12:52:56,891 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:52:57,134 INFO    wandb-upload_1:45975 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmpqsz1c2i3wandb/j4631h6m-media/plotly/rel_error_hist_22_30915ec531535830a9a0.plotly.json
+2023-03-14 12:52:57,157 INFO    wandb-upload_0:45975 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmpqsz1c2i3wandb/3j2lqbsi-media/images/true_pred_pressure_21_3d255006e295f2f7aeae.png
+2023-03-14 12:52:58,528 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/output.log
+2023-03-14 12:52:59,534 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/images
+2023-03-14 12:52:59,534 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media
+2023-03-14 12:52:59,534 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/plotly
+2023-03-14 12:53:01,277 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:53:01,907 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:53:02,624 DEBUG   SenderThread:45975 [sender.py:send():336] send: stats
+2023-03-14 12:53:06,295 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:53:07,643 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:53:11,309 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:53:12,662 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:53:16,332 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:53:17,682 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:53:21,352 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:53:22,699 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:53:26,373 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:53:27,712 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:53:31,390 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:53:32,625 DEBUG   SenderThread:45975 [sender.py:send():336] send: stats
+2023-03-14 12:53:33,630 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:53:34,935 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-14 12:53:34,935 DEBUG   SenderThread:45975 [sender.py:send():336] send: files
+2023-03-14 12:53:34,936 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file media/images/true_pred_pressure_24_7be3bb1cab962a7b932a.png with policy now
+2023-03-14 12:53:34,936 DEBUG   SenderThread:45975 [sender.py:send():336] send: history
+2023-03-14 12:53:34,936 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: summary_record
+2023-03-14 12:53:34,936 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-14 12:53:34,962 DEBUG   SenderThread:45975 [sender.py:send():336] send: files
+2023-03-14 12:53:34,962 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file media/plotly/rel_error_hist_25_3e19809bf2cb17e246fa.plotly.json with policy now
+2023-03-14 12:53:34,962 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-14 12:53:34,963 DEBUG   SenderThread:45975 [sender.py:send():336] send: history
+2023-03-14 12:53:34,963 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: summary_record
+2023-03-14 12:53:34,963 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-14 12:53:34,963 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-14 12:53:34,964 DEBUG   SenderThread:45975 [sender.py:send():336] send: history
+2023-03-14 12:53:34,964 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: summary_record
+2023-03-14 12:53:34,965 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-14 12:53:35,560 INFO    wandb-upload_1:45975 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmpqsz1c2i3wandb/zn4ky6fq-media/images/true_pred_pressure_24_7be3bb1cab962a7b932a.png
+2023-03-14 12:53:35,719 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/wandb-summary.json
+2023-03-14 12:53:35,719 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/images/true_pred_pressure_24_7be3bb1cab962a7b932a.png
+2023-03-14 12:53:35,719 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/plotly/rel_error_hist_25_3e19809bf2cb17e246fa.plotly.json
+2023-03-14 12:53:35,719 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/images
+2023-03-14 12:53:35,719 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/plotly
+2023-03-14 12:53:35,785 INFO    wandb-upload_0:45975 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmpqsz1c2i3wandb/vuejslng-media/plotly/rel_error_hist_25_3e19809bf2cb17e246fa.plotly.json
+2023-03-14 12:53:36,217 INFO    wandb-upload_1:45975 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmpqsz1c2i3wandb/u5ha8d3g-media/images/true_pred_pressure_24_7be3bb1cab962a7b932a.png
+2023-03-14 12:53:36,231 INFO    wandb-upload_0:45975 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmpqsz1c2i3wandb/94karvfd-media/plotly/rel_error_hist_25_3e19809bf2cb17e246fa.plotly.json
+2023-03-14 12:53:36,415 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:53:36,723 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/output.log
+2023-03-14 12:53:38,735 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/images
+2023-03-14 12:53:38,735 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media
+2023-03-14 12:53:38,735 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/plotly
+2023-03-14 12:53:38,980 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:53:41,433 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:53:44,004 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:53:46,446 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:53:49,029 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:53:51,466 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:53:54,046 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:53:56,488 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:53:59,065 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:54:01,508 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:54:02,627 DEBUG   SenderThread:45975 [sender.py:send():336] send: stats
+2023-03-14 12:54:04,637 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:54:06,533 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:54:09,653 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:54:11,551 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:54:14,064 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-14 12:54:14,065 DEBUG   SenderThread:45975 [sender.py:send():336] send: files
+2023-03-14 12:54:14,065 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file media/images/true_pred_pressure_27_da68b3f367c02ba6c5fe.png with policy now
+2023-03-14 12:54:14,065 DEBUG   SenderThread:45975 [sender.py:send():336] send: history
+2023-03-14 12:54:14,065 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: summary_record
+2023-03-14 12:54:14,066 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-14 12:54:14,092 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-14 12:54:14,093 DEBUG   SenderThread:45975 [sender.py:send():336] send: files
+2023-03-14 12:54:14,093 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file media/plotly/rel_error_hist_28_a6fa8f3841031f027187.plotly.json with policy now
+2023-03-14 12:54:14,093 DEBUG   SenderThread:45975 [sender.py:send():336] send: history
+2023-03-14 12:54:14,093 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: summary_record
+2023-03-14 12:54:14,093 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-14 12:54:14,094 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-14 12:54:14,094 DEBUG   SenderThread:45975 [sender.py:send():336] send: history
+2023-03-14 12:54:14,094 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: summary_record
+2023-03-14 12:54:14,095 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-14 12:54:14,170 DEBUG   SenderThread:45975 [sender.py:send():336] send: telemetry
+2023-03-14 12:54:14,171 DEBUG   SenderThread:45975 [sender.py:send():336] send: exit
+2023-03-14 12:54:14,171 INFO    SenderThread:45975 [sender.py:send_exit():559] handling exit code: 0
+2023-03-14 12:54:14,171 INFO    SenderThread:45975 [sender.py:send_exit():561] handling runtime: 401
+2023-03-14 12:54:14,171 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-14 12:54:14,171 INFO    SenderThread:45975 [sender.py:send_exit():567] send defer
+2023-03-14 12:54:14,171 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: defer
+2023-03-14 12:54:14,171 INFO    HandlerThread:45975 [handler.py:handle_request_defer():170] handle defer: 0
+2023-03-14 12:54:14,171 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: defer
+2023-03-14 12:54:14,171 INFO    SenderThread:45975 [sender.py:send_request_defer():583] handle sender defer: 0
+2023-03-14 12:54:14,172 INFO    SenderThread:45975 [sender.py:transition_state():587] send defer: 1
+2023-03-14 12:54:14,172 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: defer
+2023-03-14 12:54:14,172 INFO    HandlerThread:45975 [handler.py:handle_request_defer():170] handle defer: 1
+2023-03-14 12:54:14,172 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: defer
+2023-03-14 12:54:14,172 INFO    SenderThread:45975 [sender.py:send_request_defer():583] handle sender defer: 1
+2023-03-14 12:54:14,172 INFO    SenderThread:45975 [sender.py:transition_state():587] send defer: 2
+2023-03-14 12:54:14,172 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: defer
+2023-03-14 12:54:14,172 INFO    HandlerThread:45975 [handler.py:handle_request_defer():170] handle defer: 2
+2023-03-14 12:54:14,172 INFO    HandlerThread:45975 [system_monitor.py:finish():193] Stopping system monitor
+2023-03-14 12:54:14,191 DEBUG   SystemMonitor:45975 [system_monitor.py:_start():168] Finished system metrics aggregation loop
+2023-03-14 12:54:14,192 DEBUG   SystemMonitor:45975 [system_monitor.py:_start():172] Publishing last batch of metrics
+2023-03-14 12:54:14,192 INFO    HandlerThread:45975 [interfaces.py:finish():199] Joined cpu monitor
+2023-03-14 12:54:14,192 INFO    HandlerThread:45975 [interfaces.py:finish():199] Joined disk monitor
+2023-03-14 12:54:14,408 INFO    HandlerThread:45975 [interfaces.py:finish():199] Joined gpuapple monitor
+2023-03-14 12:54:14,408 INFO    HandlerThread:45975 [interfaces.py:finish():199] Joined memory monitor
+2023-03-14 12:54:14,408 INFO    HandlerThread:45975 [interfaces.py:finish():199] Joined network monitor
+2023-03-14 12:54:14,408 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: defer
+2023-03-14 12:54:14,408 INFO    SenderThread:45975 [sender.py:send_request_defer():583] handle sender defer: 2
+2023-03-14 12:54:14,408 INFO    SenderThread:45975 [sender.py:transition_state():587] send defer: 3
+2023-03-14 12:54:14,408 DEBUG   SenderThread:45975 [sender.py:send():336] send: stats
+2023-03-14 12:54:14,408 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: defer
+2023-03-14 12:54:14,408 INFO    HandlerThread:45975 [handler.py:handle_request_defer():170] handle defer: 3
+2023-03-14 12:54:14,408 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: defer
+2023-03-14 12:54:14,408 INFO    SenderThread:45975 [sender.py:send_request_defer():583] handle sender defer: 3
+2023-03-14 12:54:14,408 INFO    SenderThread:45975 [sender.py:transition_state():587] send defer: 4
+2023-03-14 12:54:14,409 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: defer
+2023-03-14 12:54:14,409 INFO    HandlerThread:45975 [handler.py:handle_request_defer():170] handle defer: 4
+2023-03-14 12:54:14,409 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: defer
+2023-03-14 12:54:14,409 INFO    SenderThread:45975 [sender.py:send_request_defer():583] handle sender defer: 4
+2023-03-14 12:54:14,409 INFO    SenderThread:45975 [sender.py:transition_state():587] send defer: 5
+2023-03-14 12:54:14,409 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: defer
+2023-03-14 12:54:14,409 INFO    HandlerThread:45975 [handler.py:handle_request_defer():170] handle defer: 5
+2023-03-14 12:54:14,409 DEBUG   SenderThread:45975 [sender.py:send():336] send: summary
+2023-03-14 12:54:14,410 INFO    SenderThread:45975 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-14 12:54:14,410 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: defer
+2023-03-14 12:54:14,410 INFO    SenderThread:45975 [sender.py:send_request_defer():583] handle sender defer: 5
+2023-03-14 12:54:14,410 INFO    SenderThread:45975 [sender.py:transition_state():587] send defer: 6
+2023-03-14 12:54:14,410 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: defer
+2023-03-14 12:54:14,410 INFO    HandlerThread:45975 [handler.py:handle_request_defer():170] handle defer: 6
+2023-03-14 12:54:14,410 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: defer
+2023-03-14 12:54:14,410 INFO    SenderThread:45975 [sender.py:send_request_defer():583] handle sender defer: 6
+2023-03-14 12:54:14,412 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:54:14,507 INFO    wandb-upload_0:45975 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmpqsz1c2i3wandb/8yxvigmq-media/plotly/rel_error_hist_28_a6fa8f3841031f027187.plotly.json
+2023-03-14 12:54:14,543 INFO    wandb-upload_1:45975 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmpqsz1c2i3wandb/88jd7su6-media/images/true_pred_pressure_27_da68b3f367c02ba6c5fe.png
+2023-03-14 12:54:14,656 INFO    SenderThread:45975 [sender.py:transition_state():587] send defer: 7
+2023-03-14 12:54:14,656 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: defer
+2023-03-14 12:54:14,656 INFO    HandlerThread:45975 [handler.py:handle_request_defer():170] handle defer: 7
+2023-03-14 12:54:14,657 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: defer
+2023-03-14 12:54:14,657 INFO    SenderThread:45975 [sender.py:send_request_defer():583] handle sender defer: 7
+2023-03-14 12:54:14,898 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/config.yaml
+2023-03-14 12:54:14,900 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/wandb-summary.json
+2023-03-14 12:54:14,900 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/model.ckpt
+2023-03-14 12:54:14,900 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/images/true_pred_pressure_27_da68b3f367c02ba6c5fe.png
+2023-03-14 12:54:14,901 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/plotly/rel_error_hist_28_a6fa8f3841031f027187.plotly.json
+2023-03-14 12:54:14,902 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/images
+2023-03-14 12:54:14,902 INFO    Thread-13 :45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/plotly
+2023-03-14 12:54:15,176 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-14 12:54:15,573 INFO    wandb-upload_1:45975 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmpqsz1c2i3wandb/b5y26lyg-media/plotly/rel_error_hist_28_a6fa8f3841031f027187.plotly.json
+2023-03-14 12:54:15,574 INFO    wandb-upload_0:45975 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmpqsz1c2i3wandb/hskcqy32-media/images/true_pred_pressure_27_da68b3f367c02ba6c5fe.png
+2023-03-14 12:54:16,406 INFO    SenderThread:45975 [sender.py:transition_state():587] send defer: 8
+2023-03-14 12:54:16,406 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: poll_exit
+2023-03-14 12:54:16,408 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: defer
+2023-03-14 12:54:16,408 INFO    HandlerThread:45975 [handler.py:handle_request_defer():170] handle defer: 8
+2023-03-14 12:54:16,410 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: defer
+2023-03-14 12:54:16,410 INFO    SenderThread:45975 [sender.py:send_request_defer():583] handle sender defer: 8
+2023-03-14 12:54:16,410 INFO    SenderThread:45975 [sender.py:transition_state():587] send defer: 9
+2023-03-14 12:54:16,410 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: defer
+2023-03-14 12:54:16,410 INFO    HandlerThread:45975 [handler.py:handle_request_defer():170] handle defer: 9
+2023-03-14 12:54:16,410 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: defer
+2023-03-14 12:54:16,411 INFO    SenderThread:45975 [sender.py:send_request_defer():583] handle sender defer: 9
+2023-03-14 12:54:16,411 INFO    SenderThread:45975 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-03-14 12:54:16,914 INFO    SenderThread:45975 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/output.log
+2023-03-14 12:54:16,915 INFO    SenderThread:45975 [dir_watcher.py:finish():395] scan: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files
+2023-03-14 12:54:16,915 INFO    SenderThread:45975 [dir_watcher.py:finish():409] scan save: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/requirements.txt requirements.txt
+2023-03-14 12:54:16,916 INFO    SenderThread:45975 [dir_watcher.py:finish():409] scan save: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/output.log output.log
+2023-03-14 12:54:16,916 INFO    SenderThread:45975 [dir_watcher.py:finish():409] scan save: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/config.yaml config.yaml
+2023-03-14 12:54:16,916 INFO    SenderThread:45975 [dir_watcher.py:finish():409] scan save: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/wandb-summary.json wandb-summary.json
+2023-03-14 12:54:16,916 INFO    SenderThread:45975 [dir_watcher.py:finish():409] scan save: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/conda-environment.yaml conda-environment.yaml
+2023-03-14 12:54:16,916 INFO    SenderThread:45975 [dir_watcher.py:finish():409] scan save: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/model.ckpt model.ckpt
+2023-03-14 12:54:16,917 INFO    SenderThread:45975 [dir_watcher.py:finish():409] scan save: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/wandb-metadata.json wandb-metadata.json
+2023-03-14 12:54:16,918 INFO    SenderThread:45975 [dir_watcher.py:finish():409] scan save: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/code/HW6/hw6.py code/HW6/hw6.py
+2023-03-14 12:54:16,940 INFO    SenderThread:45975 [dir_watcher.py:finish():409] scan save: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/images/true_pred_pressure_3_282afb225f0361d970fa.png media/images/true_pred_pressure_3_282afb225f0361d970fa.png
+2023-03-14 12:54:16,941 INFO    SenderThread:45975 [dir_watcher.py:finish():409] scan save: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/images/true_pred_pressure_15_558b33111cc65ffe0737.png media/images/true_pred_pressure_15_558b33111cc65ffe0737.png
+2023-03-14 12:54:16,941 INFO    SenderThread:45975 [dir_watcher.py:finish():409] scan save: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/images/true_pred_pressure_9_bc42e141278a055fb5fe.png media/images/true_pred_pressure_9_bc42e141278a055fb5fe.png
+2023-03-14 12:54:16,941 INFO    SenderThread:45975 [dir_watcher.py:finish():409] scan save: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/images/true_pred_pressure_27_da68b3f367c02ba6c5fe.png media/images/true_pred_pressure_27_da68b3f367c02ba6c5fe.png
+2023-03-14 12:54:16,941 INFO    SenderThread:45975 [dir_watcher.py:finish():409] scan save: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/images/true_pred_pressure_12_5f5911f5507fd1e62afc.png media/images/true_pred_pressure_12_5f5911f5507fd1e62afc.png
+2023-03-14 12:54:16,941 INFO    SenderThread:45975 [dir_watcher.py:finish():409] scan save: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/images/true_pred_pressure_0_a788f4af5536b2acc3ed.png media/images/true_pred_pressure_0_a788f4af5536b2acc3ed.png
+2023-03-14 12:54:16,941 INFO    SenderThread:45975 [dir_watcher.py:finish():409] scan save: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/images/true_pred_pressure_24_7be3bb1cab962a7b932a.png media/images/true_pred_pressure_24_7be3bb1cab962a7b932a.png
+2023-03-14 12:54:16,941 INFO    SenderThread:45975 [dir_watcher.py:finish():409] scan save: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/images/true_pred_pressure_6_e2bbecefc30259685691.png media/images/true_pred_pressure_6_e2bbecefc30259685691.png
+2023-03-14 12:54:16,941 INFO    SenderThread:45975 [dir_watcher.py:finish():409] scan save: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/images/true_pred_pressure_18_d4ffaea0a4d054913413.png media/images/true_pred_pressure_18_d4ffaea0a4d054913413.png
+2023-03-14 12:54:16,942 INFO    SenderThread:45975 [dir_watcher.py:finish():409] scan save: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/images/true_pred_pressure_21_3d255006e295f2f7aeae.png media/images/true_pred_pressure_21_3d255006e295f2f7aeae.png
+2023-03-14 12:54:16,942 INFO    SenderThread:45975 [dir_watcher.py:finish():409] scan save: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/plotly/rel_error_hist_13_bc9b7d24b1f54135c2e8.plotly.json media/plotly/rel_error_hist_13_bc9b7d24b1f54135c2e8.plotly.json
+2023-03-14 12:54:16,942 INFO    SenderThread:45975 [dir_watcher.py:finish():409] scan save: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/plotly/rel_error_hist_25_3e19809bf2cb17e246fa.plotly.json media/plotly/rel_error_hist_25_3e19809bf2cb17e246fa.plotly.json
+2023-03-14 12:54:16,942 INFO    SenderThread:45975 [dir_watcher.py:finish():409] scan save: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/plotly/rel_error_hist_10_7752dd4f031f2a3550c3.plotly.json media/plotly/rel_error_hist_10_7752dd4f031f2a3550c3.plotly.json
+2023-03-14 12:54:16,942 INFO    SenderThread:45975 [dir_watcher.py:finish():409] scan save: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/plotly/rel_error_hist_22_30915ec531535830a9a0.plotly.json media/plotly/rel_error_hist_22_30915ec531535830a9a0.plotly.json
+2023-03-14 12:54:16,942 INFO    SenderThread:45975 [dir_watcher.py:finish():409] scan save: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/plotly/rel_error_hist_19_658ed4daeb8dfbfd88b4.plotly.json media/plotly/rel_error_hist_19_658ed4daeb8dfbfd88b4.plotly.json
+2023-03-14 12:54:16,942 INFO    SenderThread:45975 [dir_watcher.py:finish():409] scan save: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/plotly/rel_error_hist_4_6f39065c82a238956076.plotly.json media/plotly/rel_error_hist_4_6f39065c82a238956076.plotly.json
+2023-03-14 12:54:16,942 INFO    SenderThread:45975 [dir_watcher.py:finish():409] scan save: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/plotly/rel_error_hist_28_a6fa8f3841031f027187.plotly.json media/plotly/rel_error_hist_28_a6fa8f3841031f027187.plotly.json
+2023-03-14 12:54:16,942 INFO    SenderThread:45975 [dir_watcher.py:finish():409] scan save: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/plotly/rel_error_hist_1_10fb985e86231928bde8.plotly.json media/plotly/rel_error_hist_1_10fb985e86231928bde8.plotly.json
+2023-03-14 12:54:16,942 INFO    SenderThread:45975 [dir_watcher.py:finish():409] scan save: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/plotly/rel_error_hist_16_ba90a2d6b5286ffd7b6a.plotly.json media/plotly/rel_error_hist_16_ba90a2d6b5286ffd7b6a.plotly.json
+2023-03-14 12:54:16,942 INFO    SenderThread:45975 [dir_watcher.py:finish():409] scan save: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/media/plotly/rel_error_hist_7_4a4838f467c617e2b487.plotly.json media/plotly/rel_error_hist_7_4a4838f467c617e2b487.plotly.json
+2023-03-14 12:54:16,943 INFO    SenderThread:45975 [sender.py:transition_state():587] send defer: 10
+2023-03-14 12:54:16,943 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: defer
+2023-03-14 12:54:16,943 INFO    HandlerThread:45975 [handler.py:handle_request_defer():170] handle defer: 10
+2023-03-14 12:54:16,943 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: defer
+2023-03-14 12:54:16,943 INFO    SenderThread:45975 [sender.py:send_request_defer():583] handle sender defer: 10
+2023-03-14 12:54:16,943 INFO    SenderThread:45975 [file_pusher.py:finish():164] shutting down file pusher
+2023-03-14 12:54:17,513 INFO    wandb-upload_3:45975 [upload_job.py:push():138] Uploaded file /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/wandb-summary.json
+2023-03-14 12:54:17,636 INFO    wandb-upload_1:45975 [upload_job.py:push():138] Uploaded file /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/output.log
+2023-03-14 12:54:18,013 INFO    wandb-upload_4:45975 [upload_job.py:push():138] Uploaded file /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/conda-environment.yaml
+2023-03-14 12:54:18,023 INFO    wandb-upload_2:45975 [upload_job.py:push():138] Uploaded file /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/requirements.txt
+2023-03-14 12:54:18,216 INFO    wandb-upload_0:45975 [upload_job.py:push():138] Uploaded file /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/config.yaml
+2023-03-14 12:54:19,954 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: status_report
+2023-03-14 12:54:20,198 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-14 12:54:21,310 INFO    wandb-upload_5:45975 [upload_job.py:push():138] Uploaded file /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/files/model.ckpt
+2023-03-14 12:54:21,515 INFO    Thread-12 (_thread_body):45975 [sender.py:transition_state():587] send defer: 11
+2023-03-14 12:54:21,516 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: defer
+2023-03-14 12:54:21,516 INFO    HandlerThread:45975 [handler.py:handle_request_defer():170] handle defer: 11
+2023-03-14 12:54:21,517 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: defer
+2023-03-14 12:54:21,517 INFO    SenderThread:45975 [sender.py:send_request_defer():583] handle sender defer: 11
+2023-03-14 12:54:21,517 INFO    SenderThread:45975 [file_pusher.py:join():169] waiting for file pusher
+2023-03-14 12:54:21,517 INFO    SenderThread:45975 [sender.py:transition_state():587] send defer: 12
+2023-03-14 12:54:21,517 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: defer
+2023-03-14 12:54:21,517 INFO    HandlerThread:45975 [handler.py:handle_request_defer():170] handle defer: 12
+2023-03-14 12:54:21,517 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: defer
+2023-03-14 12:54:21,518 INFO    SenderThread:45975 [sender.py:send_request_defer():583] handle sender defer: 12
+2023-03-14 12:54:22,473 INFO    SenderThread:45975 [sender.py:transition_state():587] send defer: 13
+2023-03-14 12:54:22,474 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: defer
+2023-03-14 12:54:22,474 INFO    HandlerThread:45975 [handler.py:handle_request_defer():170] handle defer: 13
+2023-03-14 12:54:22,474 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: defer
+2023-03-14 12:54:22,475 INFO    SenderThread:45975 [sender.py:send_request_defer():583] handle sender defer: 13
+2023-03-14 12:54:22,475 INFO    SenderThread:45975 [sender.py:transition_state():587] send defer: 14
+2023-03-14 12:54:22,475 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: defer
+2023-03-14 12:54:22,475 INFO    HandlerThread:45975 [handler.py:handle_request_defer():170] handle defer: 14
+2023-03-14 12:54:22,475 DEBUG   SenderThread:45975 [sender.py:send():336] send: final
+2023-03-14 12:54:22,475 DEBUG   SenderThread:45975 [sender.py:send():336] send: footer
+2023-03-14 12:54:22,475 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: defer
+2023-03-14 12:54:22,475 INFO    SenderThread:45975 [sender.py:send_request_defer():583] handle sender defer: 14
+2023-03-14 12:54:22,477 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-14 12:54:22,477 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: server_info
+2023-03-14 12:54:22,478 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: get_summary
+2023-03-14 12:54:22,478 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: sampled_history
+2023-03-14 12:54:22,485 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: poll_exit
+2023-03-14 12:54:22,487 DEBUG   SenderThread:45975 [sender.py:send_request():363] send_request: server_info
+2023-03-14 12:54:22,975 DEBUG   HandlerThread:45975 [handler.py:handle_request():144] handle_request: shutdown
+2023-03-14 12:54:22,976 INFO    HandlerThread:45975 [handler.py:finish():842] shutting down handler
+2023-03-14 12:54:23,490 INFO    WriterThread:45975 [datastore.py:close():298] close: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_124731-2h696fg7/run-2h696fg7.wandb
+2023-03-14 12:54:23,975 INFO    SenderThread:45975 [sender.py:finish():1504] shutting down sender
+2023-03-14 12:54:23,975 INFO    SenderThread:45975 [file_pusher.py:finish():164] shutting down file pusher
+2023-03-14 12:54:23,976 INFO    SenderThread:45975 [file_pusher.py:join():169] waiting for file pusher

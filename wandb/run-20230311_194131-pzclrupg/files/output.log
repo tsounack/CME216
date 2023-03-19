@@ -1,0 +1,2 @@
+/Users/Thoma/Documents/Github/CME216-Machine-Learning/HW6/utils.py:20: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.show()

@@ -1,0 +1,34 @@
+{
+    "os": "macOS-13.2.1-arm64-arm-64bit",
+    "python": "3.10.9",
+    "heartbeatAt": "2023-03-14T19:25:50.891248",
+    "startedAt": "2023-03-14T19:25:50.159013",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/Thoma/Documents/Github/CME216-Machine-Learning/HW6/hw6.py",
+    "codePath": "HW6/hw6.py",
+    "git": {
+        "remote": "https://github.com/tsounack/CME216-Machine-Learning.git",
+        "commit": "4c60b5fa3b44f590d551b40d893f8d3d515742cc"
+    },
+    "email": "tsounack@stanford.edu",
+    "root": "/Users/Thoma/Documents/Github/CME216-Machine-Learning",
+    "host": "DN51s555.SUNet",
+    "username": "Thoma",
+    "executable": "/Users/Thoma/miniforge3/envs/Thomas/bin/python",
+    "cpu_count": 10,
+    "cpu_count_logical": 10,
+    "disk": {
+        "total": 460.4317207336426,
+        "used": 339.4290084838867
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 16.0
+    }
+}

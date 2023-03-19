@@ -1,0 +1,2 @@
+/Users/Thoma/opt/anaconda3/envs/default/lib/python3.10/site-packages/torch/nn/modules/loss.py:536: UserWarning: Using a target size (torch.Size([1024, 1, 32, 32])) that is different to the input size (torch.Size([256, 1, 32, 32])). This will likely lead to incorrect results due to broadcasting. Please ensure they have the same size.
+  return F.mse_loss(input, target, reduction=self.reduction)

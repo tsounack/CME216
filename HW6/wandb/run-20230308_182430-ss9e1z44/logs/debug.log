@@ -1,0 +1,26 @@
+2023-03-08 18:24:30,429 INFO    Thread-2 (_run_job):73949 [wandb_setup.py:_flush():68] Configure stats pid to 73949
+2023-03-08 18:24:30,429 INFO    Thread-2 (_run_job):73949 [wandb_setup.py:_flush():68] Loading settings from /Users/Thoma/.config/wandb/settings
+2023-03-08 18:24:30,429 INFO    Thread-2 (_run_job):73949 [wandb_setup.py:_flush():68] Loading settings from /Users/Thoma/Documents/Github/CME216-Machine-Learning/HW6/wandb/settings
+2023-03-08 18:24:30,429 INFO    Thread-2 (_run_job):73949 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'project': 'cme216_hw6', 'entity': 'tsounack', 'root_dir': '/Users/Thoma/Documents/Github/CME216-Machine-Learning/HW6', 'sweep_id': 'nktztxi8', 'run_id': 'ss9e1z44', 'sweep_param_path': '/Users/Thoma/Documents/Github/CME216-Machine-Learning/HW6/wandb/sweep-nktztxi8/config-ss9e1z44.yaml'}
+2023-03-08 18:24:30,429 INFO    Thread-2 (_run_job):73949 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'HW6/hw6.py', 'program': '/Users/Thoma/Documents/Github/CME216-Machine-Learning/HW6/hw6.py'}
+2023-03-08 18:24:30,429 INFO    Thread-2 (_run_job):73949 [wandb_init.py:_log_setup():492] Logging user logs to /Users/Thoma/Documents/Github/CME216-Machine-Learning/HW6/wandb/run-20230308_182430-ss9e1z44/logs/debug.log
+2023-03-08 18:24:30,429 INFO    Thread-2 (_run_job):73949 [wandb_init.py:_log_setup():493] Logging internal logs to /Users/Thoma/Documents/Github/CME216-Machine-Learning/HW6/wandb/run-20230308_182430-ss9e1z44/logs/debug-internal.log
+2023-03-08 18:24:30,429 INFO    Thread-2 (_run_job):73949 [wandb_init.py:init():532] calling init triggers
+2023-03-08 18:24:30,429 INFO    Thread-2 (_run_job):73949 [wandb_init.py:init():538] wandb.init called with sweep_config: {'batch_size': 1024, 'dim': 64, 'h_dim': 128, 'lr': 0.001}
+config: {}
+2023-03-08 18:24:30,429 INFO    Thread-2 (_run_job):73949 [wandb_init.py:init():588] starting backend
+2023-03-08 18:24:30,429 INFO    Thread-2 (_run_job):73949 [wandb_init.py:init():592] setting up manager
+2023-03-08 18:24:30,435 INFO    Thread-2 (_run_job):73949 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-03-08 18:24:30,440 INFO    Thread-2 (_run_job):73949 [wandb_init.py:init():599] backend started and connected
+2023-03-08 18:24:30,444 INFO    Thread-2 (_run_job):73949 [wandb_run.py:_config_callback():1250] config_cb None None {'batch_size': 1024, 'dim': 64, 'h_dim': 128, 'lr': 0.001}
+2023-03-08 18:24:30,446 INFO    Thread-2 (_run_job):73949 [wandb_init.py:init():687] updated telemetry
+2023-03-08 18:24:30,480 INFO    Thread-2 (_run_job):73949 [wandb_init.py:init():727] communicating run to backend with 60.0 second timeout
+2023-03-08 18:24:30,827 INFO    Thread-2 (_run_job):73949 [wandb_run.py:_on_init():2134] communicating current version
+2023-03-08 18:24:30,924 INFO    Thread-2 (_run_job):73949 [wandb_run.py:_on_init():2143] got version response upgrade_message: "wandb version 0.13.11 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-03-08 18:24:30,924 INFO    Thread-2 (_run_job):73949 [wandb_init.py:init():775] starting run threads in backend
+2023-03-08 18:24:32,885 INFO    Thread-2 (_run_job):73949 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-08 18:24:32,885 INFO    Thread-2 (_run_job):73949 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-08 18:24:32,885 INFO    Thread-2 (_run_job):73949 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-08 18:24:32,885 INFO    Thread-2 (_run_job):73949 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-08 18:24:32,885 INFO    Thread-2 (_run_job):73949 [wandb_init.py:init():817] run started, returning control to user process

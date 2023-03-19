@@ -1,0 +1,14 @@
+/Users/Thoma/Documents/Github/CME216-Machine-Learning/HW6/utils.py:20: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+  plt.show()
+Epoch [15/150], Step [4/4],                     Training Loss: 0.5347, Validation Loss: 0.5266,                     Val. error (in %) = 96.35%
+/Users/Thoma/Documents/Github/CME216-Machine-Learning/HW6/utils.py:20: UserWarning:
+Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.
+Epoch [30/150], Step [4/4],                     Training Loss: 0.4117, Validation Loss: 0.4082,                     Val. error (in %) = 84.74%
+Epoch [45/150], Step [4/4],                     Training Loss: 0.1530, Validation Loss: 0.1413,                     Val. error (in %) = 50.12%
+Epoch [60/150], Step [4/4],                     Training Loss: 0.0243, Validation Loss: 0.0257,                     Val. error (in %) = 21.39%
+Epoch [75/150], Step [4/4],                     Training Loss: 0.0072, Validation Loss: 0.0077,                     Val. error (in %) = 11.65%
+Epoch [90/150], Step [4/4],                     Training Loss: 0.0054, Validation Loss: 0.0053,                     Val. error (in %) = 9.57%
+Epoch [105/150], Step [4/4],                     Training Loss: 0.0042, Validation Loss: 0.0041,                     Val. error (in %) = 8.47%
+Epoch [120/150], Step [4/4],                     Training Loss: 0.0035, Validation Loss: 0.0036,                     Val. error (in %) = 7.85%
+Epoch [135/150], Step [4/4],                     Training Loss: 0.0028, Validation Loss: 0.0037,                     Val. error (in %) = 7.98%
+Epoch [150/150], Step [4/4],                     Training Loss: 0.0025, Validation Loss: 0.0029,                     Val. error (in %) = 7.04%

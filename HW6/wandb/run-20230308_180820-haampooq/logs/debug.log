@@ -1,0 +1,33 @@
+2023-03-08 18:08:20,978 INFO    Thread-2 (_run_job):71819 [wandb_setup.py:_flush():68] Configure stats pid to 71819
+2023-03-08 18:08:20,978 INFO    Thread-2 (_run_job):71819 [wandb_setup.py:_flush():68] Loading settings from /Users/Thoma/.config/wandb/settings
+2023-03-08 18:08:20,978 INFO    Thread-2 (_run_job):71819 [wandb_setup.py:_flush():68] Loading settings from /Users/Thoma/Documents/Github/CME216-Machine-Learning/HW6/wandb/settings
+2023-03-08 18:08:20,978 INFO    Thread-2 (_run_job):71819 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'project': 'cme216_hw6', 'entity': 'tsounack', 'root_dir': '/Users/Thoma/Documents/Github/CME216-Machine-Learning/HW6', 'sweep_id': 'kyd0lzc7', 'run_id': 'haampooq', 'sweep_param_path': '/Users/Thoma/Documents/Github/CME216-Machine-Learning/HW6/wandb/sweep-kyd0lzc7/config-haampooq.yaml'}
+2023-03-08 18:08:20,978 INFO    Thread-2 (_run_job):71819 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'HW6/hw6.py', 'program': '/Users/Thoma/Documents/Github/CME216-Machine-Learning/HW6/hw6.py'}
+2023-03-08 18:08:20,978 INFO    Thread-2 (_run_job):71819 [wandb_init.py:_log_setup():492] Logging user logs to /Users/Thoma/Documents/Github/CME216-Machine-Learning/HW6/wandb/run-20230308_180820-haampooq/logs/debug.log
+2023-03-08 18:08:20,978 INFO    Thread-2 (_run_job):71819 [wandb_init.py:_log_setup():493] Logging internal logs to /Users/Thoma/Documents/Github/CME216-Machine-Learning/HW6/wandb/run-20230308_180820-haampooq/logs/debug-internal.log
+2023-03-08 18:08:20,978 INFO    Thread-2 (_run_job):71819 [wandb_init.py:init():532] calling init triggers
+2023-03-08 18:08:20,978 INFO    Thread-2 (_run_job):71819 [wandb_init.py:init():538] wandb.init called with sweep_config: {'batch_size': 1024, 'dim': 16, 'h_dim': 64, 'lr': 0.001}
+config: {}
+2023-03-08 18:08:20,978 INFO    Thread-2 (_run_job):71819 [wandb_init.py:init():588] starting backend
+2023-03-08 18:08:20,978 INFO    Thread-2 (_run_job):71819 [wandb_init.py:init():592] setting up manager
+2023-03-08 18:08:20,985 INFO    Thread-2 (_run_job):71819 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-03-08 18:08:20,991 INFO    Thread-2 (_run_job):71819 [wandb_init.py:init():599] backend started and connected
+2023-03-08 18:08:20,996 INFO    Thread-2 (_run_job):71819 [wandb_run.py:_config_callback():1250] config_cb None None {'batch_size': 1024, 'dim': 16, 'h_dim': 64, 'lr': 0.001}
+2023-03-08 18:08:20,998 INFO    Thread-2 (_run_job):71819 [wandb_init.py:init():687] updated telemetry
+2023-03-08 18:08:21,040 INFO    Thread-2 (_run_job):71819 [wandb_init.py:init():727] communicating run to backend with 60.0 second timeout
+2023-03-08 18:08:21,325 INFO    Thread-2 (_run_job):71819 [wandb_run.py:_on_init():2134] communicating current version
+2023-03-08 18:08:21,436 INFO    Thread-2 (_run_job):71819 [wandb_run.py:_on_init():2143] got version response upgrade_message: "wandb version 0.13.11 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-03-08 18:08:21,436 INFO    Thread-2 (_run_job):71819 [wandb_init.py:init():775] starting run threads in backend
+2023-03-08 18:08:23,925 INFO    Thread-2 (_run_job):71819 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-08 18:08:23,926 INFO    Thread-2 (_run_job):71819 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-08 18:08:23,926 INFO    Thread-2 (_run_job):71819 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-08 18:08:23,926 INFO    Thread-2 (_run_job):71819 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-08 18:08:23,926 INFO    Thread-2 (_run_job):71819 [wandb_init.py:init():817] run started, returning control to user process
+2023-03-08 18:08:23,945 INFO    Thread-2 (_run_job):71819 [wandb_run.py:_finish():1854] finishing run tsounack/cme216_hw6/haampooq
+2023-03-08 18:08:23,946 INFO    Thread-2 (_run_job):71819 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 1
+2023-03-08 18:08:23,946 INFO    Thread-2 (_run_job):71819 [wandb_run.py:_restore():2066] restore
+2023-03-08 18:08:23,946 INFO    Thread-2 (_run_job):71819 [wandb_run.py:_restore():2072] restore done
+2023-03-08 18:08:26,884 INFO    Thread-2 (_run_job):71819 [wandb_run.py:_footer_history_summary_info():3442] rendering history
+2023-03-08 18:08:26,885 INFO    Thread-2 (_run_job):71819 [wandb_run.py:_footer_history_summary_info():3474] rendering summary
+2023-03-08 18:08:26,900 INFO    Thread-2 (_run_job):71819 [wandb_run.py:_footer_sync_info():3398] logging synced files

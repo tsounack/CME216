@@ -1,0 +1,14 @@
+<class 'numpy.ndarray'>
+(922,)
+Epoch [15/150], Step [4/4],                     Training Loss: 0.5235, Validation Loss: 0.5209,                     Val. error (in %) = 95.88%
+<class 'numpy.ndarray'>
+(922,)
+Epoch [30/150], Step [4/4],                     Training Loss: 0.3853, Validation Loss: 0.3797,                     Val. error (in %) = 81.94%
+<class 'numpy.ndarray'>
+(922,)
+Epoch [45/150], Step [4/4],                     Training Loss: 0.1264, Validation Loss: 0.1191,                     Val. error (in %) = 45.26%
+<class 'numpy.ndarray'>
+(922,)
+Epoch [60/150], Step [4/4],                     Training Loss: 0.0209, Validation Loss: 0.0171,                     Val. error (in %) = 17.19%
+<class 'numpy.ndarray'>
+(922,)

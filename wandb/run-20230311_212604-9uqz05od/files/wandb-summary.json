@@ -1,0 +1,1 @@
+{"true_pred_pressure": {"_type": "image-file", "sha256": "7a9ae53c78b85876fc00d5b2c49ef05f8df303bccb0e44c26a6ddea0e1278c0f", "size": 144867, "path": "media/images/true_pred_pressure_0_7a9ae53c78b85876fc00.png", "format": "png", "width": 1500, "height": 1200}, "epoch": 14, "_timestamp": 1678598787.6279612, "_runtime": 22.86224627494812, "_step": 0, "_wandb": {"runtime": 22}}

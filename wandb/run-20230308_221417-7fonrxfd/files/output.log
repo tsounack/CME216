@@ -1,0 +1,6 @@
+
+Epoch [30/150], Step [4/4],                     Training Loss: 0.3853, Validation Loss: 0.3797,                     Val. error (in %) = 81.94%
+Epoch [60/150], Step [4/4],                     Training Loss: 0.0209, Validation Loss: 0.0171,                     Val. error (in %) = 17.19%
+Epoch [90/150], Step [4/4],                     Training Loss: 0.0051, Validation Loss: 0.0050,                     Val. error (in %) = 9.34%
+Epoch [120/150], Step [4/4],                     Training Loss: 0.0035, Validation Loss: 0.0046,                     Val. error (in %) = 8.85%
+Epoch [150/150], Step [4/4],                     Training Loss: 0.0026, Validation Loss: 0.0030,                     Val. error (in %) = 7.17%

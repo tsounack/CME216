@@ -1,0 +1,153 @@
+2023-03-14 13:18:56,231 INFO    Thread-27 (_run_job):43858 [wandb_setup.py:_flush():76] Configure stats pid to 43858
+2023-03-14 13:18:56,231 INFO    Thread-27 (_run_job):43858 [wandb_setup.py:_flush():76] Loading settings from /Users/Thoma/.config/wandb/settings
+2023-03-14 13:18:56,231 INFO    Thread-27 (_run_job):43858 [wandb_setup.py:_flush():76] Loading settings from /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/settings
+2023-03-14 13:18:56,231 INFO    Thread-27 (_run_job):43858 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'cme216_hw6', 'entity': 'tsounack', 'root_dir': '/Users/Thoma/Documents/Github/CME216-Machine-Learning', 'run_id': 'jgw51uaz', 'sweep_param_path': '/Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/sweep-whmmlaon/config-jgw51uaz.yaml', 'sweep_id': 'whmmlaon'}
+2023-03-14 13:18:56,231 INFO    Thread-27 (_run_job):43858 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-03-14 13:18:56,231 INFO    Thread-27 (_run_job):43858 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'HW6/hw6.py', 'program': '/Users/Thoma/Documents/Github/CME216-Machine-Learning/HW6/hw6.py'}
+2023-03-14 13:18:56,232 INFO    Thread-27 (_run_job):43858 [wandb_init.py:_log_setup():506] Logging user logs to /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_131856-jgw51uaz/logs/debug.log
+2023-03-14 13:18:56,232 INFO    Thread-27 (_run_job):43858 [wandb_init.py:_log_setup():507] Logging internal logs to /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230314_131856-jgw51uaz/logs/debug-internal.log
+2023-03-14 13:18:56,232 INFO    Thread-27 (_run_job):43858 [wandb_init.py:init():546] calling init triggers
+2023-03-14 13:18:56,232 INFO    Thread-27 (_run_job):43858 [wandb_init.py:init():552] wandb.init called with sweep_config: {'batch_size': 1024, 'dim': 64, 'h_dim': 256, 'lr': 0.001}
+config: {}
+2023-03-14 13:18:56,232 INFO    Thread-27 (_run_job):43858 [wandb_init.py:init():602] starting backend
+2023-03-14 13:18:56,232 INFO    Thread-27 (_run_job):43858 [wandb_init.py:init():606] setting up manager
+2023-03-14 13:18:56,238 INFO    Thread-27 (_run_job):43858 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-03-14 13:18:56,244 INFO    Thread-27 (_run_job):43858 [wandb_init.py:init():613] backend started and connected
+2023-03-14 13:18:56,251 INFO    Thread-27 (_run_job):43858 [wandb_run.py:_config_callback():1249] config_cb None None {'batch_size': 1024, 'dim': 64, 'h_dim': 256, 'lr': 0.001}
+2023-03-14 13:18:56,256 INFO    Thread-27 (_run_job):43858 [wandb_init.py:init():701] updated telemetry
+2023-03-14 13:18:56,304 INFO    Thread-27 (_run_job):43858 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-14 13:18:56,607 INFO    Thread-27 (_run_job):43858 [wandb_run.py:_on_init():2131] communicating current version
+2023-03-14 13:18:56,717 INFO    Thread-27 (_run_job):43858 [wandb_run.py:_on_init():2140] got version response 
+2023-03-14 13:18:56,717 INFO    Thread-27 (_run_job):43858 [wandb_init.py:init():789] starting run threads in backend
+2023-03-14 13:18:58,371 INFO    Thread-27 (_run_job):43858 [wandb_run.py:_console_start():2112] atexit reg
+2023-03-14 13:18:58,371 INFO    Thread-27 (_run_job):43858 [wandb_run.py:_redirect():1967] redirect: SettingsConsole.WRAP_RAW
+2023-03-14 13:18:58,371 INFO    Thread-27 (_run_job):43858 [wandb_run.py:_redirect():2032] Wrapping output streams.
+2023-03-14 13:18:58,371 INFO    Thread-27 (_run_job):43858 [wandb_run.py:_redirect():2057] Redirects installed.
+2023-03-14 13:18:58,372 INFO    Thread-27 (_run_job):43858 [wandb_init.py:init():831] run started, returning control to user process
+2023-03-14 13:36:42,086 INFO    Thread-1 (_heartbeat):43858 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "/Users/Thoma/miniforge3/envs/Thomas/lib/python3.10/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/Thoma/miniforge3/envs/Thomas/lib/python3.10/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Users/Thoma/miniforge3/envs/Thomas/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/Thoma/miniforge3/envs/Thomas/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/Thoma/miniforge3/envs/Thomas/lib/python3.10/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/Users/Thoma/miniforge3/envs/Thomas/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "/Users/Thoma/miniforge3/envs/Thomas/lib/python3.10/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/Users/Thoma/miniforge3/envs/Thomas/lib/python3.10/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x3eb359510>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/Thoma/miniforge3/envs/Thomas/lib/python3.10/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "/Users/Thoma/miniforge3/envs/Thomas/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/Users/Thoma/miniforge3/envs/Thomas/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x3eb359510>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/Thoma/miniforge3/envs/Thomas/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/Users/Thoma/miniforge3/envs/Thomas/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 242, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/Users/Thoma/miniforge3/envs/Thomas/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/Users/Thoma/miniforge3/envs/Thomas/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/Users/Thoma/miniforge3/envs/Thomas/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "/Users/Thoma/miniforge3/envs/Thomas/lib/python3.10/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/Users/Thoma/miniforge3/envs/Thomas/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/Thoma/miniforge3/envs/Thomas/lib/python3.10/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/Thoma/miniforge3/envs/Thomas/lib/python3.10/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/Thoma/miniforge3/envs/Thomas/lib/python3.10/site-packages/requests/adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x3eb359510>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+2023-03-14 13:39:21,488 INFO    Thread-1 (_heartbeat):43858 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "/Users/Thoma/miniforge3/envs/Thomas/lib/python3.10/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/Thoma/miniforge3/envs/Thomas/lib/python3.10/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Users/Thoma/miniforge3/envs/Thomas/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/Thoma/miniforge3/envs/Thomas/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/Thoma/miniforge3/envs/Thomas/lib/python3.10/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/Users/Thoma/miniforge3/envs/Thomas/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "/Users/Thoma/miniforge3/envs/Thomas/lib/python3.10/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/Users/Thoma/miniforge3/envs/Thomas/lib/python3.10/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x394b01000>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/Thoma/miniforge3/envs/Thomas/lib/python3.10/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "/Users/Thoma/miniforge3/envs/Thomas/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/Users/Thoma/miniforge3/envs/Thomas/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x394b01000>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/Thoma/miniforge3/envs/Thomas/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/Users/Thoma/miniforge3/envs/Thomas/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 242, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/Users/Thoma/miniforge3/envs/Thomas/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/Users/Thoma/miniforge3/envs/Thomas/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/Users/Thoma/miniforge3/envs/Thomas/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "/Users/Thoma/miniforge3/envs/Thomas/lib/python3.10/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/Users/Thoma/miniforge3/envs/Thomas/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/Thoma/miniforge3/envs/Thomas/lib/python3.10/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/Thoma/miniforge3/envs/Thomas/lib/python3.10/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/Thoma/miniforge3/envs/Thomas/lib/python3.10/site-packages/requests/adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x394b01000>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+2023-03-14 13:44:49,003 INFO    Thread-27 (_run_job):43858 [wandb_run.py:_finish():1852] finishing run tsounack/cme216_hw6/jgw51uaz
+2023-03-14 13:44:49,004 INFO    Thread-27 (_run_job):43858 [wandb_run.py:_atexit_cleanup():2081] got exitcode: 0
+2023-03-14 13:44:49,004 INFO    Thread-27 (_run_job):43858 [wandb_run.py:_restore():2064] restore
+2023-03-14 13:44:49,004 INFO    Thread-27 (_run_job):43858 [wandb_run.py:_restore():2070] restore done
+2023-03-14 13:44:57,756 INFO    Thread-27 (_run_job):43858 [wandb_run.py:_footer_history_summary_info():3429] rendering history
+2023-03-14 13:44:57,757 INFO    Thread-27 (_run_job):43858 [wandb_run.py:_footer_history_summary_info():3461] rendering summary
+2023-03-14 13:44:57,769 INFO    Thread-27 (_run_job):43858 [wandb_run.py:_footer_sync_info():3387] logging synced files

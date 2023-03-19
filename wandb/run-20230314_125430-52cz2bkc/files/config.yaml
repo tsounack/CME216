@@ -1,0 +1,40 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.13.11
+    code_path: code/HW6/hw6.py
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.10.9
+    start_time: 1678823670.532359
+    t:
+      1:
+      - 1
+      - 55
+      2:
+      - 1
+      - 55
+      3:
+      - 2
+      - 23
+      - 37
+      4: 3.10.9
+      5: 0.13.11
+      8:
+      - 4
+      - 5
+batch_size:
+  desc: null
+  value: 1024
+dim:
+  desc: null
+  value: 64
+h_dim:
+  desc: null
+  value: 128
+lr:
+  desc: null
+  value: 0.001

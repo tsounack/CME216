@@ -1,0 +1,45 @@
+2023-03-08 22:31:59,965 INFO    Thread-18 (_run_job):84172 [wandb_setup.py:_flush():76] Configure stats pid to 84172
+2023-03-08 22:31:59,966 INFO    Thread-18 (_run_job):84172 [wandb_setup.py:_flush():76] Loading settings from /Users/Thoma/.config/wandb/settings
+2023-03-08 22:31:59,966 INFO    Thread-18 (_run_job):84172 [wandb_setup.py:_flush():76] Loading settings from /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/settings
+2023-03-08 22:31:59,966 INFO    Thread-18 (_run_job):84172 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'cme216_hw6', 'entity': 'tsounack', 'root_dir': '/Users/Thoma/Documents/Github/CME216-Machine-Learning', 'run_id': 'nf80tnpr', 'sweep_param_path': '/Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/sweep-i5jyvg4j/config-nf80tnpr.yaml', 'sweep_id': 'i5jyvg4j'}
+2023-03-08 22:31:59,966 INFO    Thread-18 (_run_job):84172 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-03-08 22:31:59,966 INFO    Thread-18 (_run_job):84172 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'HW6/hw6.py', 'program': '/Users/Thoma/Documents/Github/CME216-Machine-Learning/HW6/hw6.py'}
+2023-03-08 22:31:59,973 INFO    Thread-18 (_run_job):84172 [wandb_init.py:_log_setup():506] Logging user logs to /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230308_223159-nf80tnpr/logs/debug.log
+2023-03-08 22:31:59,974 INFO    Thread-18 (_run_job):84172 [wandb_init.py:_log_setup():507] Logging internal logs to /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230308_223159-nf80tnpr/logs/debug-internal.log
+2023-03-08 22:31:59,974 INFO    Thread-18 (_run_job):84172 [wandb_init.py:init():546] calling init triggers
+2023-03-08 22:31:59,974 INFO    Thread-18 (_run_job):84172 [wandb_init.py:init():552] wandb.init called with sweep_config: {'batch_size': 1024, 'dim': 32, 'h_dim': 256, 'lr': 0.001}
+config: {}
+2023-03-08 22:31:59,974 INFO    Thread-18 (_run_job):84172 [wandb_init.py:init():602] starting backend
+2023-03-08 22:31:59,974 INFO    Thread-18 (_run_job):84172 [wandb_init.py:init():606] setting up manager
+2023-03-08 22:31:59,982 INFO    Thread-18 (_run_job):84172 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-03-08 22:31:59,987 INFO    Thread-18 (_run_job):84172 [wandb_init.py:init():613] backend started and connected
+2023-03-08 22:31:59,993 INFO    Thread-18 (_run_job):84172 [wandb_run.py:_config_callback():1249] config_cb None None {'batch_size': 1024, 'dim': 32, 'h_dim': 256, 'lr': 0.001}
+2023-03-08 22:31:59,996 INFO    Thread-18 (_run_job):84172 [wandb_init.py:init():701] updated telemetry
+2023-03-08 22:32:00,024 INFO    Thread-18 (_run_job):84172 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-08 22:32:00,342 INFO    Thread-18 (_run_job):84172 [wandb_run.py:_on_init():2131] communicating current version
+2023-03-08 22:32:00,648 INFO    Thread-18 (_run_job):84172 [wandb_run.py:_on_init():2140] got version response 
+2023-03-08 22:32:00,648 INFO    Thread-18 (_run_job):84172 [wandb_init.py:init():789] starting run threads in backend
+2023-03-08 22:32:01,963 INFO    Thread-18 (_run_job):84172 [wandb_run.py:_console_start():2112] atexit reg
+2023-03-08 22:32:01,963 INFO    Thread-18 (_run_job):84172 [wandb_run.py:_redirect():1967] redirect: SettingsConsole.WRAP_RAW
+2023-03-08 22:32:01,963 INFO    Thread-18 (_run_job):84172 [wandb_run.py:_redirect():2032] Wrapping output streams.
+2023-03-08 22:32:01,963 INFO    Thread-18 (_run_job):84172 [wandb_run.py:_redirect():2057] Redirects installed.
+2023-03-08 22:32:01,963 INFO    Thread-18 (_run_job):84172 [wandb_init.py:init():831] run started, returning control to user process
+2023-03-08 22:32:49,129 ERROR   Thread-1 (_heartbeat):84172 [internal_api.py:execute():245] 502 response executing GraphQL.
+2023-03-08 22:32:49,129 ERROR   Thread-1 (_heartbeat):84172 [internal_api.py:execute():246] 
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>502 Server Error</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Server Error</h1>
+<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>
+<h2></h2>
+</body></html>
+
+2023-03-08 22:35:41,630 INFO    Thread-18 (_run_job):84172 [wandb_run.py:_finish():1852] finishing run tsounack/cme216_hw6/nf80tnpr
+2023-03-08 22:35:41,631 INFO    Thread-18 (_run_job):84172 [wandb_run.py:_atexit_cleanup():2081] got exitcode: 0
+2023-03-08 22:35:41,631 INFO    Thread-18 (_run_job):84172 [wandb_run.py:_restore():2064] restore
+2023-03-08 22:35:41,631 INFO    Thread-18 (_run_job):84172 [wandb_run.py:_restore():2070] restore done
+2023-03-08 22:35:48,208 INFO    Thread-18 (_run_job):84172 [wandb_run.py:_footer_history_summary_info():3429] rendering history
+2023-03-08 22:35:48,213 INFO    Thread-18 (_run_job):84172 [wandb_run.py:_footer_history_summary_info():3461] rendering summary
+2023-03-08 22:35:48,231 INFO    Thread-18 (_run_job):84172 [wandb_run.py:_footer_sync_info():3387] logging synced files

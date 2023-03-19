@@ -1,0 +1,13 @@
+
+[34m[1mwandb[39m[22m: Network error (ConnectionError), entering retry loop.
+Epoch [15/150], Step [4/4],                     Training Loss: 0.2000, Validation Loss: 0.2012,                     Val. error (in %) = 59.24%
+[34m[1mwandb[39m[22m: Network error (ConnectionError), entering retry loop.
+Epoch [30/150], Step [4/4],                     Training Loss: 0.0201, Validation Loss: 0.0172,                     Val. error (in %) = 17.25%
+Epoch [45/150], Step [4/4],                     Training Loss: 0.0083, Validation Loss: 0.0073,                     Val. error (in %) = 11.19%
+Epoch [60/150], Step [4/4],                     Training Loss: 0.0044, Validation Loss: 0.0054,                     Val. error (in %) = 9.62%
+Epoch [75/150], Step [4/4],                     Training Loss: 0.0033, Validation Loss: 0.0049,                     Val. error (in %) = 9.19%
+Epoch [90/150], Step [4/4],                     Training Loss: 0.0025, Validation Loss: 0.0032,                     Val. error (in %) = 7.43%
+Epoch [105/150], Step [4/4],                     Training Loss: 0.0024, Validation Loss: 0.0030,                     Val. error (in %) = 7.18%
+Epoch [120/150], Step [4/4],                     Training Loss: 0.0021, Validation Loss: 0.0028,                     Val. error (in %) = 6.85%
+Epoch [135/150], Step [4/4],                     Training Loss: 0.0019, Validation Loss: 0.0024,                     Val. error (in %) = 6.47%
+Epoch [150/150], Step [4/4],                     Training Loss: 0.0017, Validation Loss: 0.0022,                     Val. error (in %) = 6.13%

@@ -1,0 +1,7 @@
+/Users/Thoma/Documents/Github/CME216-Machine-Learning/HW6/utils.py:16: UserWarning: Starting a Matplotlib GUI outside of the main thread will likely fail.
+  fig, axs = plt.subplots(4, 5, figsize=(15, 12))
+Epoch [30/150], Step [4/4],                     Training Loss: 0.3435, Validation Loss: 0.3479,                     Val. error (in %) = 78.36%
+Epoch [60/150], Step [4/4],                     Training Loss: 0.0406, Validation Loss: 0.0416,                     Val. error (in %) = 27.09%
+Epoch [90/150], Step [4/4],                     Training Loss: 0.0071, Validation Loss: 0.0073,                     Val. error (in %) = 11.38%
+Epoch [120/150], Step [4/4],                     Training Loss: 0.0043, Validation Loss: 0.0059,                     Val. error (in %) = 10.17%
+Epoch [150/150], Step [4/4],                     Training Loss: 0.0033, Validation Loss: 0.0037,                     Val. error (in %) = 7.99%

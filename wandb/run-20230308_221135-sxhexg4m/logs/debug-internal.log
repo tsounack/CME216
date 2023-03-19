@@ -1,0 +1,66 @@
+2023-03-08 22:11:35,167 INFO    StreamThr :83492 [internal.py:wandb_internal():87] W&B internal server running at pid: 83492, started at: 2023-03-08 22:11:35.167549
+2023-03-08 22:11:35,168 DEBUG   HandlerThread:83492 [handler.py:handle_request():144] handle_request: status
+2023-03-08 22:11:35,171 INFO    WriterThread:83492 [datastore.py:open_for_write():85] open: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230308_221135-sxhexg4m/run-sxhexg4m.wandb
+2023-03-08 22:11:35,172 DEBUG   SenderThread:83492 [sender.py:send():336] send: header
+2023-03-08 22:11:35,191 DEBUG   SenderThread:83492 [sender.py:send():336] send: run
+2023-03-08 22:11:36,630 INFO    SenderThread:83492 [dir_watcher.py:__init__():219] watching files in: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230308_221135-sxhexg4m/files
+2023-03-08 22:11:36,630 INFO    SenderThread:83492 [sender.py:_start_run_threads():1078] run started: sxhexg4m with start time 1678342295.167898
+2023-03-08 22:11:36,630 DEBUG   SenderThread:83492 [sender.py:send_request():363] send_request: summary_record
+2023-03-08 22:11:36,630 INFO    SenderThread:83492 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-08 22:11:36,633 DEBUG   HandlerThread:83492 [handler.py:handle_request():144] handle_request: check_version
+2023-03-08 22:11:36,633 DEBUG   SenderThread:83492 [sender.py:send_request():363] send_request: check_version
+2023-03-08 22:11:36,718 DEBUG   HandlerThread:83492 [handler.py:handle_request():144] handle_request: run_start
+2023-03-08 22:11:36,729 DEBUG   HandlerThread:83492 [system_info.py:__init__():31] System info init
+2023-03-08 22:11:36,730 DEBUG   HandlerThread:83492 [system_info.py:__init__():46] System info init done
+2023-03-08 22:11:36,730 INFO    HandlerThread:83492 [system_monitor.py:start():183] Starting system monitor
+2023-03-08 22:11:36,730 INFO    SystemMonitor:83492 [system_monitor.py:_start():147] Starting system asset monitoring threads
+2023-03-08 22:11:36,730 INFO    HandlerThread:83492 [system_monitor.py:probe():204] Collecting system info
+2023-03-08 22:11:36,730 INFO    SystemMonitor:83492 [interfaces.py:start():187] Started cpu monitoring
+2023-03-08 22:11:36,731 DEBUG   HandlerThread:83492 [system_info.py:probe():195] Probing system
+2023-03-08 22:11:36,731 INFO    SystemMonitor:83492 [interfaces.py:start():187] Started disk monitoring
+2023-03-08 22:11:36,731 INFO    SystemMonitor:83492 [interfaces.py:start():187] Started gpuapple monitoring
+2023-03-08 22:11:36,733 INFO    SystemMonitor:83492 [interfaces.py:start():187] Started memory monitoring
+2023-03-08 22:11:36,734 INFO    SystemMonitor:83492 [interfaces.py:start():187] Started network monitoring
+2023-03-08 22:11:36,742 DEBUG   HandlerThread:83492 [system_info.py:_probe_git():180] Probing git
+2023-03-08 22:11:36,766 DEBUG   HandlerThread:83492 [system_info.py:_probe_git():188] Probing git done
+2023-03-08 22:11:36,766 DEBUG   HandlerThread:83492 [system_info.py:probe():240] Probing system done
+2023-03-08 22:11:36,766 DEBUG   HandlerThread:83492 [system_monitor.py:probe():213] {'os': 'macOS-13.2.1-arm64-arm-64bit', 'python': '3.10.9', 'heartbeatAt': '2023-03-09T06:11:36.731135', 'startedAt': '2023-03-09T06:11:35.158707', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/Thoma/Documents/Github/CME216-Machine-Learning/HW6/hw6.py', 'codePath': 'HW6/hw6.py', 'git': {'remote': 'https://github.com/tsounack/CME216-Machine-Learning.git', 'commit': '4c60b5fa3b44f590d551b40d893f8d3d515742cc'}, 'email': 'tsounack@stanford.edu', 'root': '/Users/Thoma/Documents/Github/CME216-Machine-Learning', 'host': 'DN51s5eg.SUNet', 'username': 'Thoma', 'executable': '/Users/Thoma/miniforge3/envs/Thomas/bin/python', 'cpu_count': 10, 'cpu_count_logical': 10, 'disk': {'total': 460.4317207336426, 'used': 337.2633361816406}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 16.0}}
+2023-03-08 22:11:36,766 INFO    HandlerThread:83492 [system_monitor.py:probe():214] Finished collecting system info
+2023-03-08 22:11:36,766 INFO    HandlerThread:83492 [system_monitor.py:probe():217] Publishing system info
+2023-03-08 22:11:36,766 DEBUG   HandlerThread:83492 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-03-08 22:11:36,767 DEBUG   HandlerThread:83492 [system_info.py:_save_pip():67] Saving pip packages done
+2023-03-08 22:11:36,767 DEBUG   HandlerThread:83492 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-03-08 22:11:37,638 INFO    Thread-13 :83492 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230308_221135-sxhexg4m/files/requirements.txt
+2023-03-08 22:11:37,638 INFO    Thread-13 :83492 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230308_221135-sxhexg4m/files/wandb-summary.json
+2023-03-08 22:11:37,638 INFO    Thread-13 :83492 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230308_221135-sxhexg4m/files/conda-environment.yaml
+2023-03-08 22:11:38,432 DEBUG   HandlerThread:83492 [system_info.py:_save_conda():86] Saving conda packages done
+2023-03-08 22:11:38,432 INFO    HandlerThread:83492 [system_monitor.py:probe():219] Finished publishing system info
+2023-03-08 22:11:38,434 DEBUG   SenderThread:83492 [sender.py:send():336] send: files
+2023-03-08 22:11:38,434 INFO    SenderThread:83492 [sender.py:_save_file():1332] saving file wandb-metadata.json with policy now
+2023-03-08 22:11:38,438 DEBUG   HandlerThread:83492 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-08 22:11:38,438 DEBUG   SenderThread:83492 [sender.py:send_request():363] send_request: stop_status
+2023-03-08 22:11:38,631 DEBUG   SenderThread:83492 [sender.py:send():336] send: telemetry
+2023-03-08 22:11:38,642 INFO    Thread-13 :83492 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230308_221135-sxhexg4m/files/conda-environment.yaml
+2023-03-08 22:11:38,642 INFO    Thread-13 :83492 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230308_221135-sxhexg4m/files/wandb-metadata.json
+2023-03-08 22:11:39,055 INFO    wandb-upload_0:83492 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmple80er6qwandb/vqfomlcr-wandb-metadata.json
+2023-03-08 22:11:40,637 DEBUG   HandlerThread:83492 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 22:11:45,659 DEBUG   HandlerThread:83492 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 22:11:50,679 DEBUG   HandlerThread:83492 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 22:11:53,442 DEBUG   HandlerThread:83492 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 22:11:55,701 DEBUG   HandlerThread:83492 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 22:11:58,467 DEBUG   HandlerThread:83492 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 22:12:00,723 DEBUG   HandlerThread:83492 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 22:12:03,483 DEBUG   HandlerThread:83492 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 22:12:05,742 DEBUG   HandlerThread:83492 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 22:12:06,748 INFO    Thread-13 :83492 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230308_221135-sxhexg4m/files/config.yaml
+2023-03-08 22:12:08,508 DEBUG   HandlerThread:83492 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 22:12:11,529 DEBUG   HandlerThread:83492 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 22:12:13,526 DEBUG   HandlerThread:83492 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 22:12:16,546 DEBUG   HandlerThread:83492 [handler.py:handle_request():144] handle_request: status_report
+2023-03-08 22:12:18,549 DEBUG   HandlerThread:83492 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-08 22:12:20,772 ERROR   memory    :83492 [interfaces.py:monitor():141] Failed to sample metric: process no longer exists (pid=83464)
+2023-03-08 22:12:20,772 ERROR   memory    :83492 [interfaces.py:monitor():141] Failed to sample metric: process no longer exists (pid=83464)
+2023-03-08 22:12:20,774 ERROR   cpu       :83492 [interfaces.py:monitor():141] Failed to sample metric: process no longer exists (pid=83464)
+2023-03-08 22:12:20,774 ERROR   cpu       :83492 [interfaces.py:monitor():141] Failed to sample metric: process no longer exists (pid=83464)
+2023-03-08 22:12:20,800 INFO    Thread-13 :83492 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230308_221135-sxhexg4m/files/output.log
+2023-03-08 22:12:21,881 INFO    MainThread:83492 [internal.py:handle_exit():77] Internal process exited

@@ -1,0 +1,94 @@
+2023-03-11 20:42:45,555 INFO    StreamThr :21089 [internal.py:wandb_internal():87] W&B internal server running at pid: 21089, started at: 2023-03-11 20:42:45.555349
+2023-03-11 20:42:45,556 DEBUG   HandlerThread:21089 [handler.py:handle_request():144] handle_request: status
+2023-03-11 20:42:45,560 INFO    WriterThread:21089 [datastore.py:open_for_write():85] open: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230311_204245-jsgh0qag/run-jsgh0qag.wandb
+2023-03-11 20:42:45,561 DEBUG   SenderThread:21089 [sender.py:send():336] send: header
+2023-03-11 20:42:45,588 DEBUG   SenderThread:21089 [sender.py:send():336] send: run
+2023-03-11 20:42:45,839 INFO    SenderThread:21089 [dir_watcher.py:__init__():219] watching files in: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230311_204245-jsgh0qag/files
+2023-03-11 20:42:45,839 INFO    SenderThread:21089 [sender.py:_start_run_threads():1078] run started: jsgh0qag with start time 1678596165.556277
+2023-03-11 20:42:45,839 DEBUG   SenderThread:21089 [sender.py:send_request():363] send_request: summary_record
+2023-03-11 20:42:45,840 INFO    SenderThread:21089 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-11 20:42:45,842 DEBUG   HandlerThread:21089 [handler.py:handle_request():144] handle_request: check_version
+2023-03-11 20:42:45,843 DEBUG   SenderThread:21089 [sender.py:send_request():363] send_request: check_version
+2023-03-11 20:42:45,937 DEBUG   HandlerThread:21089 [handler.py:handle_request():144] handle_request: run_start
+2023-03-11 20:42:45,948 DEBUG   HandlerThread:21089 [system_info.py:__init__():31] System info init
+2023-03-11 20:42:45,948 DEBUG   HandlerThread:21089 [system_info.py:__init__():46] System info init done
+2023-03-11 20:42:45,948 INFO    HandlerThread:21089 [system_monitor.py:start():183] Starting system monitor
+2023-03-11 20:42:45,949 INFO    SystemMonitor:21089 [system_monitor.py:_start():147] Starting system asset monitoring threads
+2023-03-11 20:42:45,949 INFO    HandlerThread:21089 [system_monitor.py:probe():204] Collecting system info
+2023-03-11 20:42:45,949 INFO    SystemMonitor:21089 [interfaces.py:start():187] Started cpu monitoring
+2023-03-11 20:42:45,949 INFO    SystemMonitor:21089 [interfaces.py:start():187] Started disk monitoring
+2023-03-11 20:42:45,951 DEBUG   HandlerThread:21089 [system_info.py:probe():195] Probing system
+2023-03-11 20:42:45,951 INFO    SystemMonitor:21089 [interfaces.py:start():187] Started gpuapple monitoring
+2023-03-11 20:42:45,953 INFO    SystemMonitor:21089 [interfaces.py:start():187] Started memory monitoring
+2023-03-11 20:42:45,954 INFO    SystemMonitor:21089 [interfaces.py:start():187] Started network monitoring
+2023-03-11 20:42:45,958 DEBUG   HandlerThread:21089 [system_info.py:_probe_git():180] Probing git
+2023-03-11 20:42:45,985 DEBUG   HandlerThread:21089 [system_info.py:_probe_git():188] Probing git done
+2023-03-11 20:42:45,986 DEBUG   HandlerThread:21089 [system_info.py:probe():240] Probing system done
+2023-03-11 20:42:45,986 DEBUG   HandlerThread:21089 [system_monitor.py:probe():213] {'os': 'macOS-13.2.1-arm64-arm-64bit', 'python': '3.10.9', 'heartbeatAt': '2023-03-12T04:42:45.951897', 'startedAt': '2023-03-12T04:42:45.546286', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/Thoma/Documents/Github/CME216-Machine-Learning/HW6/hw6.py', 'codePath': 'HW6/hw6.py', 'git': {'remote': 'https://github.com/tsounack/CME216-Machine-Learning.git', 'commit': '4c60b5fa3b44f590d551b40d893f8d3d515742cc'}, 'email': 'tsounack@stanford.edu', 'root': '/Users/Thoma/Documents/Github/CME216-Machine-Learning', 'host': 'DN51s555.SUNet', 'username': 'Thoma', 'executable': '/Users/Thoma/miniforge3/envs/Thomas/bin/python', 'cpu_count': 10, 'cpu_count_logical': 10, 'disk': {'total': 460.4317207336426, 'used': 338.1141014099121}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 16.0}}
+2023-03-11 20:42:45,986 INFO    HandlerThread:21089 [system_monitor.py:probe():214] Finished collecting system info
+2023-03-11 20:42:45,986 INFO    HandlerThread:21089 [system_monitor.py:probe():217] Publishing system info
+2023-03-11 20:42:45,986 DEBUG   HandlerThread:21089 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-03-11 20:42:45,986 DEBUG   HandlerThread:21089 [system_info.py:_save_pip():67] Saving pip packages done
+2023-03-11 20:42:45,986 DEBUG   HandlerThread:21089 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-03-11 20:42:46,846 INFO    Thread-13 :21089 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230311_204245-jsgh0qag/files/requirements.txt
+2023-03-11 20:42:46,846 INFO    Thread-13 :21089 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230311_204245-jsgh0qag/files/conda-environment.yaml
+2023-03-11 20:42:46,846 INFO    Thread-13 :21089 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230311_204245-jsgh0qag/files/wandb-summary.json
+2023-03-11 20:42:47,485 DEBUG   HandlerThread:21089 [system_info.py:_save_conda():86] Saving conda packages done
+2023-03-11 20:42:47,485 INFO    HandlerThread:21089 [system_monitor.py:probe():219] Finished publishing system info
+2023-03-11 20:42:47,488 DEBUG   SenderThread:21089 [sender.py:send():336] send: files
+2023-03-11 20:42:47,488 INFO    SenderThread:21089 [sender.py:_save_file():1332] saving file wandb-metadata.json with policy now
+2023-03-11 20:42:47,492 DEBUG   HandlerThread:21089 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-11 20:42:47,492 DEBUG   SenderThread:21089 [sender.py:send_request():363] send_request: stop_status
+2023-03-11 20:42:47,595 DEBUG   SenderThread:21089 [sender.py:send():336] send: telemetry
+2023-03-11 20:42:47,848 INFO    Thread-13 :21089 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230311_204245-jsgh0qag/files/conda-environment.yaml
+2023-03-11 20:42:47,848 INFO    Thread-13 :21089 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230311_204245-jsgh0qag/files/wandb-metadata.json
+2023-03-11 20:42:47,957 INFO    wandb-upload_0:21089 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmptrufhroawandb/hrak7ysw-wandb-metadata.json
+2023-03-11 20:42:50,607 DEBUG   HandlerThread:21089 [handler.py:handle_request():144] handle_request: status_report
+2023-03-11 20:42:55,621 DEBUG   HandlerThread:21089 [handler.py:handle_request():144] handle_request: status_report
+2023-03-11 20:43:00,632 DEBUG   HandlerThread:21089 [handler.py:handle_request():144] handle_request: status_report
+2023-03-11 20:43:02,493 DEBUG   HandlerThread:21089 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-11 20:43:02,493 DEBUG   HandlerThread:21089 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-11 20:43:05,650 DEBUG   HandlerThread:21089 [handler.py:handle_request():144] handle_request: status_report
+2023-03-11 20:43:07,513 DEBUG   HandlerThread:21089 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-11 20:43:08,700 DEBUG   HandlerThread:21089 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-11 20:43:08,701 DEBUG   SenderThread:21089 [sender.py:send():336] send: files
+2023-03-11 20:43:08,701 INFO    SenderThread:21089 [sender.py:_save_file():1332] saving file media/images/true_pred_pressure_0_68ec8bc3a21d19ffe12a.png with policy now
+2023-03-11 20:43:08,701 DEBUG   SenderThread:21089 [sender.py:send():336] send: history
+2023-03-11 20:43:08,701 DEBUG   SenderThread:21089 [sender.py:send_request():363] send_request: summary_record
+2023-03-11 20:43:08,702 INFO    SenderThread:21089 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-11 20:43:08,841 DEBUG   SenderThread:21089 [sender.py:send():336] send: files
+2023-03-11 20:43:08,841 DEBUG   HandlerThread:21089 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-11 20:43:08,841 INFO    SenderThread:21089 [sender.py:_save_file():1332] saving file media/plotly/rel_error_hist_1_ad31067b26ce34d60fcc.plotly.json with policy now
+2023-03-11 20:43:08,842 DEBUG   SenderThread:21089 [sender.py:send():336] send: history
+2023-03-11 20:43:08,842 DEBUG   SenderThread:21089 [sender.py:send_request():363] send_request: summary_record
+2023-03-11 20:43:08,842 INFO    SenderThread:21089 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-11 20:43:08,842 DEBUG   HandlerThread:21089 [handler.py:handle_request():144] handle_request: partial_history
+2023-03-11 20:43:08,843 DEBUG   SenderThread:21089 [sender.py:send():336] send: history
+2023-03-11 20:43:08,843 DEBUG   SenderThread:21089 [sender.py:send_request():363] send_request: summary_record
+2023-03-11 20:43:08,843 INFO    SenderThread:21089 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-03-11 20:43:08,899 INFO    Thread-13 :21089 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230311_204245-jsgh0qag/files/wandb-summary.json
+2023-03-11 20:43:08,899 INFO    Thread-13 :21089 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230311_204245-jsgh0qag/files/media/images/true_pred_pressure_0_68ec8bc3a21d19ffe12a.png
+2023-03-11 20:43:08,899 INFO    Thread-13 :21089 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230311_204245-jsgh0qag/files/output.log
+2023-03-11 20:43:08,899 INFO    Thread-13 :21089 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230311_204245-jsgh0qag/files/media/plotly/rel_error_hist_1_ad31067b26ce34d60fcc.plotly.json
+2023-03-11 20:43:08,900 INFO    Thread-13 :21089 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230311_204245-jsgh0qag/files/media/images
+2023-03-11 20:43:08,900 INFO    Thread-13 :21089 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230311_204245-jsgh0qag/files/media/plotly
+2023-03-11 20:43:08,900 INFO    Thread-13 :21089 [dir_watcher.py:_on_file_created():278] file/dir created: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230311_204245-jsgh0qag/files/media
+2023-03-11 20:43:09,110 INFO    wandb-upload_0:21089 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmptrufhroawandb/bbfcgg5w-media/images/true_pred_pressure_0_68ec8bc3a21d19ffe12a.png
+2023-03-11 20:43:09,330 INFO    wandb-upload_1:21089 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmptrufhroawandb/pdqma6yg-media/plotly/rel_error_hist_1_ad31067b26ce34d60fcc.plotly.json
+2023-03-11 20:43:09,585 INFO    wandb-upload_0:21089 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmptrufhroawandb/edrhm28u-media/images/true_pred_pressure_0_68ec8bc3a21d19ffe12a.png
+2023-03-11 20:43:09,761 INFO    wandb-upload_1:21089 [upload_job.py:push():138] Uploaded file /var/folders/my/zbw_v3fd3l554w11sc2ks3xc0000gn/T/tmptrufhroawandb/07rzdlhr-media/plotly/rel_error_hist_1_ad31067b26ce34d60fcc.plotly.json
+2023-03-11 20:43:09,905 INFO    Thread-13 :21089 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230311_204245-jsgh0qag/files/media/images
+2023-03-11 20:43:09,905 INFO    Thread-13 :21089 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230311_204245-jsgh0qag/files/media
+2023-03-11 20:43:10,847 DEBUG   HandlerThread:21089 [handler.py:handle_request():144] handle_request: status_report
+2023-03-11 20:43:10,905 INFO    Thread-13 :21089 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230311_204245-jsgh0qag/files/output.log
+2023-03-11 20:43:12,528 DEBUG   HandlerThread:21089 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-11 20:43:15,865 DEBUG   HandlerThread:21089 [handler.py:handle_request():144] handle_request: status_report
+2023-03-11 20:43:16,922 INFO    Thread-13 :21089 [dir_watcher.py:_on_file_modified():295] file/dir modified: /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230311_204245-jsgh0qag/files/config.yaml
+2023-03-11 20:43:17,538 DEBUG   HandlerThread:21089 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-11 20:43:20,999 DEBUG   HandlerThread:21089 [handler.py:handle_request():144] handle_request: status_report
+2023-03-11 20:43:22,547 DEBUG   HandlerThread:21089 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-11 20:43:23,989 ERROR   memory    :21089 [interfaces.py:monitor():141] Failed to sample metric: process no longer exists (pid=21072)
+2023-03-11 20:43:23,989 ERROR   memory    :21089 [interfaces.py:monitor():141] Failed to sample metric: process no longer exists (pid=21072)
+2023-03-11 20:43:23,992 ERROR   cpu       :21089 [interfaces.py:monitor():141] Failed to sample metric: process no longer exists (pid=21072)
+2023-03-11 20:43:23,993 ERROR   cpu       :21089 [interfaces.py:monitor():141] Failed to sample metric: process no longer exists (pid=21072)
+2023-03-11 20:43:25,067 INFO    MainThread:21089 [internal.py:handle_exit():77] Internal process exited

@@ -1,0 +1,33 @@
+2023-03-13 15:06:28,226 INFO    Thread-2 (_run_job):5250 [wandb_setup.py:_flush():76] Configure stats pid to 5250
+2023-03-13 15:06:28,226 INFO    Thread-2 (_run_job):5250 [wandb_setup.py:_flush():76] Loading settings from /Users/Thoma/.config/wandb/settings
+2023-03-13 15:06:28,227 INFO    Thread-2 (_run_job):5250 [wandb_setup.py:_flush():76] Loading settings from /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/settings
+2023-03-13 15:06:28,227 INFO    Thread-2 (_run_job):5250 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'cme216_hw6', 'entity': 'tsounack', 'root_dir': '/Users/Thoma/Documents/Github/CME216-Machine-Learning', 'sweep_id': 'byoshmvs', 'run_id': 'pk6ozwdz', 'sweep_param_path': '/Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/sweep-byoshmvs/config-pk6ozwdz.yaml'}
+2023-03-13 15:06:28,227 INFO    Thread-2 (_run_job):5250 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-03-13 15:06:28,227 INFO    Thread-2 (_run_job):5250 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'HW6/hw6.py', 'program': '/Users/Thoma/Documents/Github/CME216-Machine-Learning/HW6/hw6.py'}
+2023-03-13 15:06:28,227 INFO    Thread-2 (_run_job):5250 [wandb_init.py:_log_setup():506] Logging user logs to /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230313_150628-pk6ozwdz/logs/debug.log
+2023-03-13 15:06:28,227 INFO    Thread-2 (_run_job):5250 [wandb_init.py:_log_setup():507] Logging internal logs to /Users/Thoma/Documents/Github/CME216-Machine-Learning/wandb/run-20230313_150628-pk6ozwdz/logs/debug-internal.log
+2023-03-13 15:06:28,227 INFO    Thread-2 (_run_job):5250 [wandb_init.py:init():546] calling init triggers
+2023-03-13 15:06:28,227 INFO    Thread-2 (_run_job):5250 [wandb_init.py:init():552] wandb.init called with sweep_config: {'batch_size': 1024, 'dim': 16, 'h_dim': 64, 'lr': 0.001}
+config: {}
+2023-03-13 15:06:28,227 INFO    Thread-2 (_run_job):5250 [wandb_init.py:init():602] starting backend
+2023-03-13 15:06:28,227 INFO    Thread-2 (_run_job):5250 [wandb_init.py:init():606] setting up manager
+2023-03-13 15:06:28,230 INFO    Thread-2 (_run_job):5250 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-03-13 15:06:28,234 INFO    Thread-2 (_run_job):5250 [wandb_init.py:init():613] backend started and connected
+2023-03-13 15:06:28,237 INFO    Thread-2 (_run_job):5250 [wandb_run.py:_config_callback():1249] config_cb None None {'batch_size': 1024, 'dim': 16, 'h_dim': 64, 'lr': 0.001}
+2023-03-13 15:06:28,238 INFO    Thread-2 (_run_job):5250 [wandb_init.py:init():701] updated telemetry
+2023-03-13 15:06:28,258 INFO    Thread-2 (_run_job):5250 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-13 15:06:28,726 INFO    Thread-2 (_run_job):5250 [wandb_run.py:_on_init():2131] communicating current version
+2023-03-13 15:06:29,097 INFO    Thread-2 (_run_job):5250 [wandb_run.py:_on_init():2140] got version response 
+2023-03-13 15:06:29,098 INFO    Thread-2 (_run_job):5250 [wandb_init.py:init():789] starting run threads in backend
+2023-03-13 15:06:30,678 INFO    Thread-2 (_run_job):5250 [wandb_run.py:_console_start():2112] atexit reg
+2023-03-13 15:06:30,678 INFO    Thread-2 (_run_job):5250 [wandb_run.py:_redirect():1967] redirect: SettingsConsole.WRAP_RAW
+2023-03-13 15:06:30,678 INFO    Thread-2 (_run_job):5250 [wandb_run.py:_redirect():2032] Wrapping output streams.
+2023-03-13 15:06:30,678 INFO    Thread-2 (_run_job):5250 [wandb_run.py:_redirect():2057] Redirects installed.
+2023-03-13 15:06:30,678 INFO    Thread-2 (_run_job):5250 [wandb_init.py:init():831] run started, returning control to user process
+2023-03-13 15:09:32,585 INFO    Thread-2 (_run_job):5250 [wandb_run.py:_finish():1852] finishing run tsounack/cme216_hw6/pk6ozwdz
+2023-03-13 15:09:32,585 INFO    Thread-2 (_run_job):5250 [wandb_run.py:_atexit_cleanup():2081] got exitcode: 0
+2023-03-13 15:09:32,585 INFO    Thread-2 (_run_job):5250 [wandb_run.py:_restore():2064] restore
+2023-03-13 15:09:32,586 INFO    Thread-2 (_run_job):5250 [wandb_run.py:_restore():2070] restore done
+2023-03-13 15:09:39,591 INFO    Thread-2 (_run_job):5250 [wandb_run.py:_footer_history_summary_info():3429] rendering history
+2023-03-13 15:09:39,593 INFO    Thread-2 (_run_job):5250 [wandb_run.py:_footer_history_summary_info():3461] rendering summary
+2023-03-13 15:09:39,609 INFO    Thread-2 (_run_job):5250 [wandb_run.py:_footer_sync_info():3387] logging synced files
